@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Route, NavLink } from 'react-router-dom';
+import Threat from '../Threat/Threat.js';
+import Home from '../Home/Home.js';
+
 
 class App extends Component {
   constructor() {
@@ -29,20 +33,23 @@ class App extends Component {
             >Menu</button>  
           </div> 
         </header>
-        {!this.state.isHidden && <Menu />}
-        <section className='app-body'>
-        </section>
+        {!this.state.isHidden && <Menu toggleHidden={() => this.toggleHidden()}/>}
+        
+        <Route exact path='/' component={Home} />
+        <Route exact path='/threat' component={Threat} />
       </div>
     );
   }
 }
 
-const Menu = () => (
-  <span className="display-toggle">
+const Menu = (props) => (
+  <span className="display-toggle" onClick={() => props.toggleHidden()}>
     <div className="responsive-header-bar">
-      <a href="google.com" target="_blank" className="responsive-header-bar-nav-links">Navigation Link 1</a>
-      <a href="google.com" target="_blank" className="responsive-header-bar-nav-links">Navigation Link 2</a>
-      <a href="google.com" target="_blank" className="responsive-header-bar-nav-links">Navigation Link 3</a>
+      <NavLink to='/' className="responsive-header-bar-nav-links">Home</NavLink>
+      <NavLink to='/threat' className="responsive-header-bar-nav-links">The Threat</NavLink>
+      <NavLink to='/whoweare' className="responsive-header-bar-nav-links">Who We Are</NavLink>
+      <NavLink to='/products' className="responsive-header-bar-nav-links">What We Offer</NavLink>
+      <NavLink to='/contact' className="responsive-header-bar-nav-links">Contact Us</NavLink>
     </div>
   </span>
 )
