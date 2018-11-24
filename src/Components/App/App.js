@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Route, NavLink } from 'react-router-dom';
 
 class App extends Component {
   constructor() {
@@ -40,9 +41,9 @@ class App extends Component {
 const Menu = () => (
   <span className="display-toggle">
     <div className="responsive-header-bar">
-      <a href="google.com" target="_blank" className="responsive-header-bar-nav-links">Navigation Link 1</a>
-      <a href="google.com" target="_blank" className="responsive-header-bar-nav-links">Navigation Link 2</a>
-      <a href="google.com" target="_blank" className="responsive-header-bar-nav-links">Navigation Link 3</a>
+      <NavLink to='/threat' className="responsive-header-bar-nav-links">The Threat</NavLink>
+      <NavLink to='/whoweare' className="responsive-header-bar-nav-links">Who We Are</NavLink>
+      <NavLink to='/products' className="responsive-header-bar-nav-links">What We Offer</NavLink>
     </div>
   </span>
 )
