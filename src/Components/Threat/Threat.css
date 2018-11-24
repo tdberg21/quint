@@ -1,13 +1,19 @@
 .threat-component {
-  min-height: 80vh;
+  min-height: 85vh;
   background-color: #000;
 }
 
 .threat-header {
   text-decoration: underline;
   margin: 0;
+  padding: 1rem 0 0 0;
 }
 
 .threat-text {
   color: #fff;
+}
+
+.threat-paragraph {
+  width: 50%;
+  margin: 1rem auto 0 auto;
 }

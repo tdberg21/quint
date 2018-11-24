@@ -1,9 +1,15 @@
 * {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+}
+
+.header-title {
+  font-size: 2rem;
 }
 
 .App {
   text-align: center;
-  border: 15px solid #002868;
+  border: 20px solid #002868;
 }
 
 .App-header {
@@ -12,7 +18,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: calc(10px + 2vmin);
   color: #fff;
   padding: 0 15px;
 }
@@ -31,9 +36,9 @@
   display: flex;
   flex-direction: column;
   background-color: black;
-  width: 25%;
+  width: 21%;
   position: absolute;
-  right: 15px;
+  right: 20px;
 }
 
 .responsive-header-bar-nav-links {
@@ -44,7 +49,7 @@
 }
 
 .app-body {
-  min-height: 80vh;
+  min-height: 85vh;
   background: linear-gradient(
       rgba(1, 23, 5, 0.4), 
       rgba(1, 23, 5, 0.4)), url('https://c1.staticflickr.com/7/6104/6295798405_f0ea7edb41_b.jpg');
