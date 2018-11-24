@@ -45,5 +45,10 @@
 
 .app-body {
   min-height: 80vh;
-  background-color: black;
+  background: linear-gradient(
+      rgba(1, 23, 5, 0.4), 
+      rgba(1, 23, 5, 0.4)), url('https://c1.staticflickr.com/7/6104/6295798405_f0ea7edb41_b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
