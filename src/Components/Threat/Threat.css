@@ -1,0 +1,13 @@
+.threat-component {
+  min-height: 80vh;
+  background-color: #000;
+}
+
+.threat-header {
+  text-decoration: underline;
+  margin: 0;
+}
+
+.threat-text {
+  color: #fff;
+}
