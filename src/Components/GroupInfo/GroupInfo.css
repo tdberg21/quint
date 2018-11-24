@@ -1,0 +1,19 @@
+.groupinfo-component {
+  min-height: 80vh;
+  background-color: #000;
+}
+
+.groupinfo-header {
+  text-decoration: underline;
+  margin: 0;
+  padding: 1rem 0 0 0;
+}
+
+.groupinfo-text {
+  color: #fff;
+}
+
+.groupinfo-paragraph {
+  width: 50%;
+  margin: 1rem auto 0 auto;
+}
