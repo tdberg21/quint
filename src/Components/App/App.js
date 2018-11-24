@@ -54,6 +54,7 @@ const Menu = (props) => (
       <NavLink to='/' className="responsive-header-bar-nav-links">Home</NavLink>
       <NavLink to='/threat' className="responsive-header-bar-nav-links">The Threat</NavLink>
       <NavLink to='/whoweare' className="responsive-header-bar-nav-links">Who We Are</NavLink>
+      <NavLink to='/bios' className="responsive-header-bar-nav-links">Individual Bios</NavLink>
       <NavLink to='/products' className="responsive-header-bar-nav-links">What We Offer</NavLink>
       <NavLink to='/contact' className="responsive-header-bar-nav-links">Contact Us</NavLink>
     </div>
