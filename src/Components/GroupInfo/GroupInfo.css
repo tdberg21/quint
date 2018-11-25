@@ -1,19 +1,23 @@
-.threat-component {
+.groupinfo-component {
   min-height: 80vh;
   background-color: #000;
 }
 
-.threat-header {
+.groupinfo-header {
   text-decoration: underline;
   margin: 0;
-  padding: 3rem 0 0 0;
+  padding: 2rem 0 0 0;
 }
 
-.threat-text {
+.groupinfo-text {
   color: #fff;
 }
 
-.threat-paragraph {
+.groupinfo-paragraph {
   width: 50%;
   margin: 1rem auto 0 auto;
+}
+
+.bottom {
+  padding-bottom: 2rem;
 }

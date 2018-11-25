@@ -3,6 +3,8 @@ import './App.css';
 import { Route, NavLink } from 'react-router-dom';
 import Threat from '../Threat/Threat.js';
 import Home from '../Home/Home.js';
+import GroupInfo from '../GroupInfo/GroupInfo.js';
+import Products from '../Products/Products.js';
 
 
 class App extends Component {
@@ -25,7 +27,7 @@ class App extends Component {
     return (
       <div className='App'>
         <header className='App-header'>
-          <h2>Quintet, LLC</h2>
+          <h1 className='header-title'>Quintet, LLC</h1>
           <div className='header-menu'>
             <button 
               className='menu-button'
@@ -37,6 +39,10 @@ class App extends Component {
         
         <Route exact path='/' component={Home} />
         <Route exact path='/threat' component={Threat} />
+        <Route exact path='/whoweare' component={GroupInfo} />
+        <Route exact path='/products' component={Products} />
+        <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet"></link>
       </div>
     );
   }
@@ -48,6 +54,7 @@ const Menu = (props) => (
       <NavLink to='/' className="responsive-header-bar-nav-links">Home</NavLink>
       <NavLink to='/threat' className="responsive-header-bar-nav-links">The Threat</NavLink>
       <NavLink to='/whoweare' className="responsive-header-bar-nav-links">Who We Are</NavLink>
+      <NavLink to='/bios' className="responsive-header-bar-nav-links">Individual Bios</NavLink>
       <NavLink to='/products' className="responsive-header-bar-nav-links">What We Offer</NavLink>
       <NavLink to='/contact' className="responsive-header-bar-nav-links">Contact Us</NavLink>
     </div>
