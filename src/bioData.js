@@ -1,0 +1,27 @@
+export const bioData = [
+  {
+    name: 'Robert Dannenberg',
+    email: 'rmdberg1@gmail.com',
+    info: 'Rob is an independent consultant on geopolitical and security risk. From 2009-2014 he was a managing director and head of the Office of Global Security for Goldman Sachs. Prior to joining the firm, Rob worked at BP plc, where he was the director of International Security Affairs. Before that, he worked for the Central Intelligence Agency for 24 years, where he served in several senior leadership positions, including Chief of Operations for the Counter Terrorism Center, Chief of the Central Eurasia Division and Chief of the CIA’s Information Operations Center. He is a recipient of the Distinguished Career Intelligence Medal, the Donovan Award for Operational Excellence, the George HW Bush Award for Excellence in Counter Terrorism and the Director’s Award. Rob is a member of the Board of Advisors to the Director of the National Counter-Terrorism Center and the Board of Directors of Business Executives for National Security. Rob earned a BA in International Relations from the University of Colorado and engaged in post-graduate study in Economics and Foreign Affairs at George Mason and Georgetown Universities.'
+  },
+  {
+    name: 'Michael Sulick',
+    email: 'michael.sulick@gmail.com',
+    info: 'Dr. Michael Sulick was the Director of CIA\'s National Clandestine Service responsible for managing and coordinating  America\'s worldwide espionage operations. Prior to that he was director of CIA\'s counterintelligence and director of intelligence operations for Russia, Eurasia and Eastern Europe. He served overseas conducting and leading espionage operations in Russia, Eastern Europe, Asia and Latin America. Since retirement he has been a consultant to various US and foreign corporations on global risk and security issues, including JP Morgan Chase, Goldman Sachs, PriceWaterhouseCoopers and companies in Eastern Europe. He has also been a consultant on security issues to the Department of Homeland Security and Lawrence Livermore National Laboratory.  Dr. Sulick has also lectured on intelligence and international affairs at various universities and is the author of two books on American espionage. A native of New York City, Mr. Sulick received a Ph.D. from the City University of New York and a BA and MA in Russian Studies from Fordham University. He also served in Vietnam with the US Marine Corps.'
+  },
+  {
+    name: 'Michael Morgan',
+    email: 'mmorg721@gmail.com',
+    info: 'Mr. Morgan began his professional career in 1978 at Chemical Bank International in New York City where he worked on Brazilian correspondent banking accounts until joining the CIA as an Operations Officer in 1980.  Over the ensuing 26 years, he served in 7 countries in Latin America, Europe and the former Soviet Union before taking on senior executive positions at CIA Headquarters in Washington.  His last position in government was as Assistant Deputy Director of National Intelligence, from which he retired in 2006 to join Raytheon as the Director of Strategy in the company’s Intelligence and Information Systems business, and was intimately involved with the creation of the company\'s Information Assurance business.  In 2009, he joined the then newly formed Political Risk and Security team at PricewaterhouseCoopers International responsible for identifying, assessing and mitigating external risks to the PwC network worldwide.  Mr. Morgan holds a BA in Government from Dartmouth College and lives in Vienna, Virginia and New London, NH.'
+  },
+  {
+    name: 'David Bridges',
+    email: 'almatinskaya@yahoo.com',
+    info: 'David Bridges is the senior geopolitical and security analyst at Fidelity Management and Research Company (FMRCo), the investment advisor for Fidelity\'s family of mutual funds.  In this role, David provides expert geopolitical assessment to Fidelity investors. Prior to joining Fidelity in 2012, David served a 25-year career in the Central Intelligence Agency\'s (CIA) Clandestine Service.  David retired from CIA in 2011.  At the time of his retirement, he was a member of the Senior Intelligence Service, the elite leadership team that guides CIA activities across the globe.  Over the course of his career, David held a number of critical positions, to include executive oversight of all CIA activity in Russia, the former Soviet Union, central and eastern Europe, and the Balkans, operational coordination of all CIA offensive and defensive counterintelligence operations worldwide, and several assignments as chief of station.  In recognition of his outstanding work, he received CIA\'s Distinguished Career Intelligence Medal, the George Bush Award for Excellence in Counterterrorism, and the Clandestine Service\'s Donovan Award.  Prior to joining CIA, David spent five years working for a peacekeeping force in the Middle East.  He has been in the investments industry since 2012. David earned his bachelor\'s degree with high honors from Dartmouth college and his master\'s degree from the University of Chicago\'s Center for Middle Eastern Studies.  He speaks five languages.'
+  },
+  {
+    name: 'Paul Kolbe',
+    email: 'prkolbe@mac.com',
+    info: ''
+  }
+];

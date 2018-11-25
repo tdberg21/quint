@@ -4,6 +4,7 @@ import { Route, NavLink } from 'react-router-dom';
 import Threat from '../Threat/Threat.js';
 import Home from '../Home/Home.js';
 import GroupInfo from '../GroupInfo/GroupInfo.js';
+import ShortBioContainer from '../ShortBioContainer/ShortBioContainer.js';
 import Products from '../Products/Products.js';
 
 
@@ -40,6 +41,7 @@ class App extends Component {
         <Route exact path='/' component={Home} />
         <Route exact path='/threat' component={Threat} />
         <Route exact path='/whoweare' component={GroupInfo} />
+        <Route exact path='/bios' component={ShortBioContainer} />
         <Route exact path='/products' component={Products} />
         <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet"></link>
