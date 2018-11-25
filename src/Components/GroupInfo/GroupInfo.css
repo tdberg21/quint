@@ -6,7 +6,7 @@
 .groupinfo-header {
   text-decoration: underline;
   margin: 0;
-  padding: 1rem 0 0 0;
+  padding: 2rem 0 0 0;
 }
 
 .groupinfo-text {
@@ -16,4 +16,8 @@
 .groupinfo-paragraph {
   width: 50%;
   margin: 1rem auto 0 auto;
+}
+
+.bottom {
+  padding-bottom: 2rem;
 }
