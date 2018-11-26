@@ -8,6 +8,8 @@ const LongBio = (props) => {
     <div className='longbio-component'>
       <h2>{props.name}</h2>
       <img src={props.source} alt={props.lastName} className='short-bio-image'/>
+      <p>Email: {props.email}</p>
+      <p>Phone: {props.phone}</p>
       <p>{props.info}</p>
       <Link to='/bios'> Back to Group </Link>
     </div>
