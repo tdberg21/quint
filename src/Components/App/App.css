@@ -5,6 +5,7 @@
 
 .header-title {
   font-size: 2rem;
+  font-weight: 700;
 }
 
 .App {
@@ -13,7 +14,7 @@
 }
 
 .App-header {
-  background-color: black;
+  background-color: #000;
   min-height: 10vh;
   display: flex;
   align-items: center;
@@ -23,7 +24,7 @@
 }
 
 .menu-button {
-  background-color: black;
+  background-color: #000;
   color: #fff;
   font-size: 1.2rem;
   text-decoration: none;
@@ -35,7 +36,7 @@
   padding: 0px;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #000;
   width: 21%;
   position: absolute;
   right: 20px;
@@ -51,9 +52,20 @@
 .app-body {
   min-height: 80vh;
   background: linear-gradient(
-      rgba(1, 23, 5, 0.4), 
-      rgba(1, 23, 5, 0.4)), url('https://c1.staticflickr.com/7/6104/6295798405_f0ea7edb41_b.jpg');
+      rgba(1, 23, 5, 0.7), 
+      rgba(1, 23, 5, 0.7)), url('https://c1.staticflickr.com/7/6104/6295798405_f0ea7edb41_b.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.home-paragraph {
+  color: #fff;
+  margin: 1rem auto 0 auto;
+  width: 57%;
+  text-align: left;
+}
+
+.menu-button {
+  font-weight: 500;
 }
