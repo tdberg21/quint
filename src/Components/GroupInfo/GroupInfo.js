@@ -1,5 +1,6 @@
 import React from 'react';
 import './GroupInfo.css';
+import { Link } from 'react-router-dom';
 
 const GroupInfo = () => {
   return (
@@ -12,6 +13,7 @@ const GroupInfo = () => {
       </p>
       <p className='groupinfo-text groupinfo-paragraph bottom'>
       The skills that once benefited Presidents and senior policy makers, from the collection of determinant intelligence to the analysis of seemingly random facts, have proven equally useful to CEO's, Chief Risk Officers and portfolio managers. In the process, each member of our small group has become conversant in what matters most to decision makers in the private sector, helping to address developing issues and solve problems in the same proactive manner as they did in government.</p>
+      <Link to='/bios'>Individual Bios</Link>
     </div>
   )
 };

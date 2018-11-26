@@ -6,7 +6,8 @@ import Home from '../Home/Home.js';
 import GroupInfo from '../GroupInfo/GroupInfo.js';
 import ShortBioContainer from '../ShortBioContainer/ShortBioContainer.js';
 import Products from '../Products/Products.js';
-
+import LongBio from '../LongBio/LongBio.js';
+import { bioData } from '../../bioData.js';
 
 class App extends Component {
   constructor() {
@@ -43,6 +44,12 @@ class App extends Component {
         <Route exact path='/whoweare' component={GroupInfo} />
         <Route exact path='/bios' component={ShortBioContainer} />
         <Route exact path='/products' component={Products} />
+        <Route path='/bios/:name' render={({ match }) => {
+          let info = bioData.find(bio => {
+            return bio.lastName === match.params.name; 
+          });
+          return <LongBio {...info} />;
+        }} />
       </div>
     );
   }
