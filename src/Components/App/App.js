@@ -18,6 +18,18 @@ class App extends Component {
     }
   }
 
+  hideMenu = () => {
+    this.setState({
+      isHidden: true
+    })
+  }
+
+  showMenu = () => {
+    this.setState({
+      isHidden: false
+    })
+  }
+
   toggleHidden = () => {
     this.setState({
       isHidden: !this.state.isHidden
@@ -34,10 +46,11 @@ class App extends Component {
             <button 
               className='menu-button'
               onClick={() => this.toggleHidden()}
+              onMouseEnter={() => this.showMenu()}
             >Menu</button>  
           </div> 
         </header>
-        {!this.state.isHidden && <Menu toggleHidden={() => this.toggleHidden()}/>}
+        {!this.state.isHidden && <Menu toggleHidden={() => this.toggleHidden()} hideMenu={() => this.hideMenu()}/>}
         
         <Route exact path='/' component={Home} />
         <Route exact path='/threat' component={Threat} />
@@ -56,7 +69,8 @@ class App extends Component {
 }
 
 const Menu = (props) => (
-  <span className="display-toggle" onClick={() => props.toggleHidden()}>
+              
+  <span className="display-toggle" onClick={() => props.toggleHidden()} onMouseLeave={() => props.hideMenu()}>
     <div className="responsive-header-bar">
       <NavLink to='/' className="responsive-header-bar-nav-links">Home</NavLink>
       <NavLink to='/threat' className="responsive-header-bar-nav-links">The Threat</NavLink>
