@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className='App'>
         <header className='App-header'>
-          <h1 className='header-title'>Quintet, LLC</h1>
+          <h1 className='header-title'>Quint, LLC</h1>
           <div className='header-menu'>
             <button 
               className='menu-button'
