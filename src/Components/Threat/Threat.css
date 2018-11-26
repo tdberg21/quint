@@ -1,6 +1,12 @@
 .threat-component {
   min-height: 80vh;
   background-color: #000;
+  background: linear-gradient(
+      rgba(1, 23, 5, 0.7), 
+      rgba(1, 23, 5, 0.7)), url('https://cdni.rt.com/files/opinionpost/3b/36/d0/00/us-ww2-ukraine-parade-moscow.si.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .threat-header {
@@ -14,6 +20,7 @@
 }
 
 .threat-paragraph {
-  width: 50%;
+  width: 57%;
   margin: 1rem auto 0 auto;
+  text-align: left;
 }
