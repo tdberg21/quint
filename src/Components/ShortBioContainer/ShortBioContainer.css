@@ -1,0 +1,10 @@
+.shortbio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.short-bio-image {
+  height: 300px;
+  width: 200px;
+}
