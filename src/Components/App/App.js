@@ -4,8 +4,10 @@ import { Route, NavLink } from 'react-router-dom';
 import Threat from '../Threat/Threat.js';
 import Home from '../Home/Home.js';
 import GroupInfo from '../GroupInfo/GroupInfo.js';
+import ShortBioContainer from '../ShortBioContainer/ShortBioContainer.js';
 import Products from '../Products/Products.js';
-
+import LongBio from '../LongBio/LongBio.js';
+import { bioData } from '../../bioData.js';
 
 class App extends Component {
   constructor() {
@@ -27,7 +29,7 @@ class App extends Component {
     return (
       <div className='App'>
         <header className='App-header'>
-          <h1 className='header-title'>Quintet, LLC</h1>
+          <h1 className='header-title'>Quint, LLC</h1>
           <div className='header-menu'>
             <button 
               className='menu-button'
@@ -40,9 +42,14 @@ class App extends Component {
         <Route exact path='/' component={Home} />
         <Route exact path='/threat' component={Threat} />
         <Route exact path='/whoweare' component={GroupInfo} />
+        <Route exact path='/bios' component={ShortBioContainer} />
         <Route exact path='/products' component={Products} />
-        <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet"></link>
+        <Route path='/bios/:name' render={({ match }) => {
+          let info = bioData.find(bio => {
+            return bio.lastName === match.params.name; 
+          });
+          return <LongBio {...info} />;
+        }} />
       </div>
     );
   }
