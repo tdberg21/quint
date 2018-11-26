@@ -2,9 +2,30 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background: linear-gradient(
+      rgba(1, 23, 5, 0.4), 
+      rgba(1, 23, 5, 0.4)), url('https://cdn2.img.sputniknews.com/images/105748/78/1057487878.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.short-bio {
+  margin: 25px 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.bio-name {
+  margin: 5px 0;
 }
 
 .short-bio-image {
   height: 300px;
   width: 200px;
 }
+
+/* .full-bio-button {
+  background-color: #000;
+  color: #fff;
+} */

@@ -12,10 +12,8 @@ const ShortBioContainer = () => {
         alt={bio.name} 
         className='short-bio-image'
       />
-      <h4>{bio.name}</h4>
-      <Link to={`/bios/${bio.lastName}`}>
-      <button className='full-bio-button'>Click to View Full Bio</button>
-      </Link>
+      <h4 className='bio-name'>{bio.name}</h4>
+      <Link to={`/bios/${bio.lastName}`}> View Full Bio </Link>
     </div>
     )  
   })
