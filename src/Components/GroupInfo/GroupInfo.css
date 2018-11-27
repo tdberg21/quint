@@ -1,12 +1,29 @@
 .groupinfo-component {
-  min-height: 80vh;
-  background-color: #000;
+  min-height: 82vh;
+}
+
+.groupinfo-pic {
+  background: linear-gradient(
+      rgba(1, 23, 5, 0.7), 
+      rgba(1, 23, 5, 0.7)), url('https://cdn2.img.sputniknews.com/images/105748/78/1057487878.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-pic {
+  background: linear-gradient(
+      rgba(1, 23, 5, 0.7), 
+      rgba(1, 23, 5, 0.7)), url('https://c1.staticflickr.com/8/7143/6606798845_c930d130b8_b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .groupinfo-header {
   text-decoration: underline;
   margin: 0;
-  padding: 0.8rem 0 0 0;
+  padding: 3rem 0 0 0;
 }
 
 .groupinfo-text {
@@ -14,10 +31,15 @@
 }
 
 .groupinfo-paragraph {
-  width: 50%;
+  width: 57%;
   margin: 1rem auto 0 auto;
+  text-align: left;
 }
 
 .bottom {
   padding-bottom: 2rem;
+}
+
+.group-link {
+  color: red;
 }

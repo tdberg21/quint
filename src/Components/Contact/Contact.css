@@ -1,0 +1,16 @@
+.contact-component {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 82vh;
+  padding-top: 2rem;
+}
+
+.contact-card {
+  width: 33%;
+  height: fit-content;
+}
+
+/* .contact-name {
+  margin-top: 0;
+} */

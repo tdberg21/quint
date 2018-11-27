@@ -1,19 +1,26 @@
 .shortbio-container {
+  min-height: 82vh;
+  height: fit-content;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background: linear-gradient(
-      rgba(1, 23, 5, 0.4), 
-      rgba(1, 23, 5, 0.4)), url('https://cdn2.img.sputniknews.com/images/105748/78/1057487878.jpg');
+  justify-content: space-evenly;
+  align-items: center;
+  /* background: linear-gradient(
+      rgba(1, 23, 5, 0.7), 
+      rgba(1, 23, 5, 0.7)), url('https://cdn2.img.sputniknews.com/images/105748/78/1057487878.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+  background-color: black;
 }
 
 .short-bio {
-  margin: 25px 5px;
+  margin: 25px 10px;
   background-color: white;
-  padding: 10px;
+  padding: 5px 3px 8px 3px;
+  max-height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  border-radius: 2px;
 }
 
 .bio-name {
@@ -21,11 +28,14 @@
 }
 
 .short-bio-image {
-  height: 300px;
+  height: 275px;
   width: 200px;
 }
 
-/* .full-bio-button {
-  background-color: #000;
-  color: #fff;
-} */
+.bio-links {
+  color: #002868;
+}
+
+.short-info {
+  width: 275px;
+}

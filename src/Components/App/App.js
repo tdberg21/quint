@@ -8,6 +8,7 @@ import ShortBioContainer from '../ShortBioContainer/ShortBioContainer.js';
 import Products from '../Products/Products.js';
 import LongBio from '../LongBio/LongBio.js';
 import { bioData } from '../../bioData.js';
+import Contact from '../Contact/Contact.js';
 
 class App extends Component {
   constructor() {
@@ -18,12 +19,23 @@ class App extends Component {
     }
   }
 
+  hideMenu = () => {
+    this.setState({
+      isHidden: true
+    })
+  }
+
+  showMenu = () => {
+    this.setState({
+      isHidden: false
+    })
+  }
+
   toggleHidden = () => {
     this.setState({
       isHidden: !this.state.isHidden
     })
   }
-
 
   render() {
     return (
@@ -34,16 +46,18 @@ class App extends Component {
             <button 
               className='menu-button'
               onClick={() => this.toggleHidden()}
+              onMouseEnter={() => this.showMenu()}
             >Menu</button>  
           </div> 
         </header>
-        {!this.state.isHidden && <Menu toggleHidden={() => this.toggleHidden()}/>}
+        {!this.state.isHidden && <Menu toggleHidden={() => this.toggleHidden()} hideMenu={() => this.hideMenu()}/>}
         
         <Route exact path='/' component={Home} />
         <Route exact path='/threat' component={Threat} />
         <Route exact path='/whoweare' component={GroupInfo} />
         <Route exact path='/bios' component={ShortBioContainer} />
         <Route exact path='/products' component={Products} />
+        <Route exact path='/contact' component={Contact} />
         <Route path='/bios/:name' render={({ match }) => {
           let info = bioData.find(bio => {
             return bio.lastName === match.params.name; 
@@ -55,8 +69,8 @@ class App extends Component {
   }
 }
 
-const Menu = (props) => (
-  <span className="display-toggle" onClick={() => props.toggleHidden()}>
+const Menu = (props) => (      
+  <span className="display-toggle" onClick={() => props.toggleHidden()} onMouseLeave={() => props.hideMenu()}>
     <div className="responsive-header-bar">
       <NavLink to='/' className="responsive-header-bar-nav-links">Home</NavLink>
       <NavLink to='/threat' className="responsive-header-bar-nav-links">The Threat</NavLink>

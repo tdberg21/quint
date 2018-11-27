@@ -1,6 +1,12 @@
 .threat-component {
-  min-height: 80vh;
+  min-height: 82vh;
   background-color: #000;
+  background: linear-gradient(
+      rgba(1, 23, 5, 0.7), 
+      rgba(1, 23, 5, 0.7)), url('http://4.bp.blogspot.com/-OvFJjolETyI/VjnY-ovKhMI/AAAAAAAAA18/2eojA8BhpSA/s1600/0_1439cb_df14ef5f_orig.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .threat-header {
@@ -14,6 +20,7 @@
 }
 
 .threat-paragraph {
-  width: 50%;
+  width: 57%;
   margin: 1rem auto 0 auto;
+  text-align: left;
 }
