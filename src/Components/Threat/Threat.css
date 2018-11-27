@@ -1,9 +1,9 @@
 .threat-component {
-  min-height: 80vh;
+  min-height: 82vh;
   background-color: #000;
   background: linear-gradient(
       rgba(1, 23, 5, 0.7), 
-      rgba(1, 23, 5, 0.7)), url('https://cdni.rt.com/files/opinionpost/3b/36/d0/00/us-ww2-ukraine-parade-moscow.si.jpg');
+      rgba(1, 23, 5, 0.7)), url('http://4.bp.blogspot.com/-OvFJjolETyI/VjnY-ovKhMI/AAAAAAAAA18/2eojA8BhpSA/s1600/0_1439cb_df14ef5f_orig.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

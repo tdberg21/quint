@@ -1,8 +1,20 @@
 .groupinfo-component {
-  min-height: 80vh;
+  min-height: 82vh;
+}
+
+.groupinfo-pic {
   background: linear-gradient(
       rgba(1, 23, 5, 0.7), 
       rgba(1, 23, 5, 0.7)), url('https://cdn2.img.sputniknews.com/images/105748/78/1057487878.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-pic {
+  background: linear-gradient(
+      rgba(1, 23, 5, 0.7), 
+      rgba(1, 23, 5, 0.7)), url('https://c1.staticflickr.com/8/7143/6606798845_c930d130b8_b.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -30,5 +42,4 @@
 
 .group-link {
   color: red;
-
 }

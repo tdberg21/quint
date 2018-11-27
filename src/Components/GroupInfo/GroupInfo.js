@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const GroupInfo = () => {
   return (
-    <div className='groupinfo-component'>
+    <div className='groupinfo-component groupinfo-pic'>
       <h3 className='groupinfo-text groupinfo-header'>Who We Are</h3>
       <p className='groupinfo-text groupinfo-paragraph'>Quint’s five partners have that extensive overseas experience and knowledge from conducting and leading clandestine operations in every region of the world, often in hostile environments where the risk of exposure for US Government equities was extraordinary. 
       </p>

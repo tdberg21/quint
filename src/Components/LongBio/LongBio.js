@@ -1,17 +1,20 @@
 import React from 'react';
-// import './ShortBioContainer.css';
-// import { bioData } from '../../bioData.js';
+import './LongBio.css';
 import { Link } from 'react-router-dom';
 
 const LongBio = (props) => {
   return (
     <div className='longbio-component'>
-      <h2>{props.name}</h2>
-      <img src={props.source} alt={props.lastName} className='short-bio-image'/>
-      <p>Email: {props.email}</p>
-      <p>Phone: {props.phone}</p>
-      <p>{props.info}</p>
-      <Link to='/bios'> Back to Group </Link>
+      <h2 className='longbio-name'>{props.name}</h2>
+      <div className='longbio-card'> 
+        <section className='image-contact-section'> 
+          <img src={props.source} alt={props.lastName} className='short-bio-image'/>
+          <p>Email: {props.email}</p>
+          <p>Phone: {props.phone}</p>
+        </section> 
+        <p className='longbio-text'>{props.info}</p>
+      </div>
+        <Link to='/bios' className='group-link'> Back to Group </Link>
     </div>
   )
 };

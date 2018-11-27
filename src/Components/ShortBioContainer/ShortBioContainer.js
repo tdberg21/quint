@@ -13,7 +13,8 @@ const ShortBioContainer = () => {
         className='short-bio-image'
       />
       <h4 className='bio-name'>{bio.name}</h4>
-      <Link to={`/bios/${bio.lastName}`}> View Full Bio </Link>
+      {/* <p className='short-info'>{bio.short}</p> */}
+      <Link to={`/bios/${bio.lastName}`} className='bio-links'> View Full Bio </Link>
     </div>
     )  
   })
