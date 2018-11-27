@@ -8,6 +8,7 @@ import ShortBioContainer from '../ShortBioContainer/ShortBioContainer.js';
 import Products from '../Products/Products.js';
 import LongBio from '../LongBio/LongBio.js';
 import { bioData } from '../../bioData.js';
+import Contact from '../Contact/Contact.js';
 
 class App extends Component {
   constructor() {
@@ -36,7 +37,6 @@ class App extends Component {
     })
   }
 
-
   render() {
     return (
       <div className='App'>
@@ -57,6 +57,7 @@ class App extends Component {
         <Route exact path='/whoweare' component={GroupInfo} />
         <Route exact path='/bios' component={ShortBioContainer} />
         <Route exact path='/products' component={Products} />
+        <Route exact path='/contact' component={Contact} />
         <Route path='/bios/:name' render={({ match }) => {
           let info = bioData.find(bio => {
             return bio.lastName === match.params.name; 
@@ -68,8 +69,7 @@ class App extends Component {
   }
 }
 
-const Menu = (props) => (
-              
+const Menu = (props) => (      
   <span className="display-toggle" onClick={() => props.toggleHidden()} onMouseLeave={() => props.hideMenu()}>
     <div className="responsive-header-bar">
       <NavLink to='/' className="responsive-header-bar-nav-links">Home</NavLink>
