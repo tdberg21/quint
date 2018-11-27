@@ -1,5 +1,5 @@
 .threat-component {
-  min-height: 82vh;
+  min-height: 75vh;
   background-color: #000;
   background: linear-gradient(
       rgba(1, 23, 5, 0.7), 
@@ -7,12 +7,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 3rem;
 }
 
 .threat-header {
   text-decoration: underline;
   margin: 0;
-  padding: 3rem 0 0 0;
 }
 
 .threat-text {
@@ -20,7 +20,8 @@
 }
 
 .threat-paragraph {
-  width: 57%;
+  width: 100%;
   margin: 1rem auto 0 auto;
   text-align: left;
+  padding-bottom: 2rem;
 }

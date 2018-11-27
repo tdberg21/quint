@@ -1,5 +1,7 @@
 .groupinfo-component {
-  min-height: 82vh;
+  min-height: 75vh;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .groupinfo-pic {
@@ -21,9 +23,9 @@
 }
 
 .groupinfo-header {
+  width: 100%;
   text-decoration: underline;
   margin: 0;
-  padding: 3rem 0 0 0;
 }
 
 .groupinfo-text {
@@ -31,8 +33,6 @@
 }
 
 .groupinfo-paragraph {
-  width: 57%;
-  margin: 1rem auto 0 auto;
   text-align: left;
 }
 
