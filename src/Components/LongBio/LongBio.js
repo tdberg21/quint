@@ -3,6 +3,11 @@ import './LongBio.css';
 import { Link } from 'react-router-dom';
 
 const LongBio = (props) => {
+  const infoToDisplay = props.info.map(info => {
+    return (
+      <p className='longbio-text'>{info}</p>
+    )
+  })
   return (
     <div className='longbio-component'>
       <h2 className='longbio-name'>{props.name}</h2>
@@ -12,7 +17,10 @@ const LongBio = (props) => {
           <p>Email: {props.email}</p>
           <p>Phone: {props.phone}</p>
         </section> 
-        <p className='longbio-text'>{props.info}</p>
+        <div className='longbio-text-section'>
+        {infoToDisplay}
+        </div>
+        {/* <p className='longbio-text'>{props.info}</p> */}
       </div>
         <Link to='/bios' className='group-link'> Back to Group </Link>
     </div>

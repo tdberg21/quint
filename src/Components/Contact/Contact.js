@@ -8,7 +8,7 @@ const Contact = () => {
       <div className='contact-card'>
         <h4 className='contact-name'>{bio.name}</h4>
         <p>Phone: {bio.phone}</p>
-        <p>Phone: {bio.email}</p>
+        <p>Email: {bio.email}</p>
       </div>
     )
   })

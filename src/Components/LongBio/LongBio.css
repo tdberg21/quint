@@ -2,6 +2,7 @@
   background-color: #000;
   color: #fff;
   min-height: 82vh;
+  padding-bottom: 1rem;
 }
 
 .longbio-name {
@@ -15,14 +16,20 @@
   color: white;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 1rem;
 }
 
-.longbio-text {
+.longbio-text-section {
   width: 50%;
   text-align: left;
   margin: 0;
 }
 
+.longbio-text {
+  margin-top: 0;
+}
+
 .image-contact-section {
   width: 30%;
+  padding-top: 4px;
 }

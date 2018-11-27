@@ -56,20 +56,29 @@
 }
 
 .app-body {
-  min-height: 82vh;
+  min-height: 75vh;
   background: linear-gradient(
       rgba(1, 23, 5, 0.7), 
       rgba(1, 23, 5, 0.7)), url('https://c1.staticflickr.com/7/6104/6295798405_f0ea7edb41_b.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 3rem;
+}
+
+.blur-bg {
+  width: 57%;
+  margin: 0 auto 0 auto;
+  min-height: fit-content;
+  background: rgba(1, 23, 5, 0.75);
+  padding: 1rem 1rem 0 1rem;
 }
 
 .home-paragraph {
   color: #fff;
   margin: 1rem auto 0 auto;
-  width: 57%;
   text-align: left;
+  padding-bottom: 2rem;
 }
 
 .menu-button {
