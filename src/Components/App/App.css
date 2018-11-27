@@ -49,6 +49,12 @@
   font-weight: 300;
 }
 
+.responsive-header-bar-nav-links:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+}
+
 .app-body {
   min-height: 82vh;
   background: linear-gradient(
