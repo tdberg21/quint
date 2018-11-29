@@ -1,6 +1,6 @@
 * {
   font-family: 'Chakra Petch', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .header-title {
@@ -10,7 +10,7 @@
 
 .App {
   text-align: center;
-  border: 20px solid #002868;
+  border: 2rem solid #002868;
 }
 
 .App-header {
@@ -39,7 +39,7 @@
   background-color: #000;
   width: 21%;
   position: absolute;
-  right: 20px;
+  right: 2rem;
 }
 
 .responsive-header-bar-nav-links {
