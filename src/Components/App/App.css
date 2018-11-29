@@ -1,6 +1,6 @@
 * {
   font-family: 'Chakra Petch', sans-serif;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .quint-logo {
@@ -8,7 +8,7 @@
 }
 
 .header-title {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -78,7 +78,7 @@
 }
 
 .blur-bg {
-  width: 57%;
+  width: 70%;
   margin: 0 auto 0 auto;
   min-height: fit-content;
   background: rgba(1, 23, 5, 0.75);
