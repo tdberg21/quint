@@ -1,16 +1,17 @@
 .contact-component {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  text-align: left;
+  justify-content: space-around;
   min-height: 82vh;
-  padding-top: 2rem;
+  padding: 2rem;
+  background-color: #000;
+  color: #fff;
 }
 
 .contact-card {
-  width: 33%;
+  width: 30%;
   height: fit-content;
+  margin-left: 1rem;
 }
 
-/* .contact-name {
-  margin-top: 0;
-} */
