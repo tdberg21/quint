@@ -97,9 +97,18 @@
 }
 
 @media screen and (max-width: 650px) {
+
+  .header-title {
+    font-size: 1.4rem;
+  }
+
   .header-subtitle {
     display: none;
   }
+
+  .menu-button {
+  font-size: 0.8rem;
+}
 
   .responsive-header-bar {
   width: 31%;
