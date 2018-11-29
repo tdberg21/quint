@@ -1,11 +1,22 @@
 * {
   font-family: 'Chakra Petch', sans-serif;
-  font-size: 18px;
+  font-size: 19px;
+}
+
+.quint-logo {
+  text-align: left;
 }
 
 .header-title {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
+  margin-bottom: 0;
+}
+
+.header-subtitle {
+  margin-top: 0;
+  font-size: 0.7rem;
+  font-style: italic;
 }
 
 .App {
@@ -67,7 +78,7 @@
 }
 
 .blur-bg {
-  width: 57%;
+  width: 70%;
   margin: 0 auto 0 auto;
   min-height: fit-content;
   background: rgba(1, 23, 5, 0.75);
@@ -83,4 +94,18 @@
 
 .menu-button {
   font-weight: 500;
+}
+
+@media screen and (max-width: 650px) {
+  .header-subtitle {
+    display: none;
+  }
+
+  .responsive-header-bar {
+  width: 31%;
+}
+
+.responsive-header-bar-nav-links {
+  font-size: 0.8rem;
+}
 }

@@ -41,7 +41,10 @@ class App extends Component {
     return (
       <div className='App'>
         <header className='App-header'>
-          <h1 className='header-title'>Quint, LLC</h1>
+          <div className='quint-logo'>
+          <h1 className='header-title'>Quint Advisors</h1>
+          <p className='header-subtitle'>A geopolitical, security and cyber risk advisory practice.</p>
+          </div>
           <div className='header-menu'>
             <button 
               className='menu-button'
