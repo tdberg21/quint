@@ -20,7 +20,6 @@ const LongBio = (props) => {
         <div className='longbio-text-section'>
         {infoToDisplay}
         </div>
-        {/* <p className='longbio-text'>{props.info}</p> */}
       </div>
         <Link to='/bios' className='group-link'> Back to Group </Link>
     </div>
