@@ -1,6 +1,6 @@
 import kolbe from './assets/kolbe.jpg';
-import morgan from './assets/morgan.jpg';
 import sulick from './assets/sulick.jpg';
+import morgan2 from './assets/morgan.jpg';
 import bridges from './assets/bridges.jpg';
 import dberg from './assets/dberg.jpg';
 
@@ -30,7 +30,7 @@ export const bioData = [
     email: 'archonprincipal@gmail.com',
     phone: ' 703-300-2007',
     lastName: 'morgan',
-    source: morgan,
+    source: morgan2,
     short: '26 years working for the CIA, former Assistant Deputy Director for the Office of the Director of National Intelligence, Raytheon Director of Strategy in the company’s Intelligence and Information Systems business and Managing Director and Chief Security Officer for PwC',
     info: ['Mr. Morgan began his professional career in 1978 at Chemical Bank International in New York City where he worked on Brazilian correspondent banking accounts until joining the CIA as an Operations Officer in 1980.  Over the ensuing 26 years, he served in 7 countries in Latin America, Europe and the former Soviet Union, to include senior field representative in Denmark and Mexico.  During postings in Washington, Mr. Morgan held senior positions focused on the Middle East, former Soviet Union and counterproliferation of weapons of mass destruction.  In 2005, Mr. Morgan was appointed Assistant Deputy Director within the newly formed Office of the Director of National Intelligence, where he had responsibility for oversight of all intelligence community human intelligence programs.  Upon retirement, Mr. Morgan joined the Raytheon Company as Director of Strategy in the company’s Intelligence and Information Systems business, where he was asked to manage a CEO-directed research and development program spanning all aspects of Raytheon’s business operations, to include assisting in the creation of Raytheon’s Information Assurance business.', 
     'In 2009, he joined the then newly formed Political Risk and Security team at PricewaterhouseCoopers International responsible for identifying, assessing and mitigating external risks to PwC’s business operations worldwide.  As Managing Director and Chief Security Officer until his retirement in 2018, Mr. Morgan had overall responsibility for the security of more than 250k partners and staff, as well as physical assets in 163 countries.  He also directly reported to the Global Chairman and his leadership team on a wide range of geopolitical issues.',  
