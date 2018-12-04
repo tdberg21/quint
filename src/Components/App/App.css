@@ -70,7 +70,7 @@
   min-height: 75vh;
   background: linear-gradient(
       rgba(1, 23, 5, 0.7), 
-      rgba(1, 23, 5, 0.7)), url('https://c1.staticflickr.com/7/6104/6295798405_f0ea7edb41_b.jpg');
+      rgba(1, 23, 5, 0.7)), url('../../assets/moscow.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

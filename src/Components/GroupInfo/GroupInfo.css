@@ -7,7 +7,7 @@
 .groupinfo-pic {
   background: linear-gradient(
       rgba(1, 23, 5, 0.7), 
-      rgba(1, 23, 5, 0.7)), url('https://cdn2.img.sputniknews.com/images/105748/78/1057487878.jpg');
+      rgba(1, 23, 5, 0.7)), url('../../assets/group.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,7 +16,7 @@
 .product-pic {
   background: linear-gradient(
       rgba(1, 23, 5, 0.7), 
-      rgba(1, 23, 5, 0.7)), url('https://si.wsj.net/public/resources/images/TE-AB841_SKILLS_P_20180917142805.jpg');
+      rgba(1, 23, 5, 0.7)), url('../../assets/products.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
