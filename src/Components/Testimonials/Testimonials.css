@@ -1,0 +1,17 @@
+.testimonials-component {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-around;
+  min-height: 82vh;
+  padding: 2rem;
+  background-color: #000;
+}
+
+.testimonial-text {
+  color: #fff;
+}
+
+.testimonial-card {
+  width: 90%;
+}
