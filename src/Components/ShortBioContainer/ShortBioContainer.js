@@ -2,6 +2,7 @@ import React from 'react';
 import './ShortBioContainer.css';
 import { bioData } from '../../bioData.js';
 import { Link } from 'react-router-dom';
+import funpic from '../../assets/funpic.jpg';
 
 const ShortBioContainer = () => {
   const dataToDisplay = bioData.map((bio, index) => {
@@ -13,14 +14,17 @@ const ShortBioContainer = () => {
         className='short-bio-image'
       />
       <h4 className='bio-name'>{bio.name}</h4>
-      {/* <p className='short-info'>{bio.short}</p> */}
       <Link to={`/bios/${bio.lastName}`} className='bio-links'> View Full Bio </Link>
     </div>
     )  
   })
   return (
-    <div className='shortbio-container'>
-      {dataToDisplay}
+    <div className='shortbio-component'>
+      <div className='shortbio-container'>
+        {dataToDisplay}
+      </div>
+      <hr></hr>
+      <img src={funpic} alt='quint advisors hanging out' className='funpic'></img>
     </div>
   )
 };
