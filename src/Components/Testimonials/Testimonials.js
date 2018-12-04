@@ -7,7 +7,7 @@ const Testimonials = () => {
     text.map((testimonial, index) => {
       return (
         <div className='testimonial-card' key={index}>
-          <p className='testimonial-text testimonial'>{testimonial.testimonial}</p>
+          <p className='testimonial-text testimonial'>"{testimonial.testimonial}"</p>
           <p className='testimonial-text testimonial-source'> --{testimonial.source}</p>
         </div>
       )
