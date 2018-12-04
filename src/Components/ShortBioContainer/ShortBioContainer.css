@@ -1,3 +1,8 @@
+.shortbio-component {
+  background-color: black;
+  padding-bottom: 3rem;
+}
+
 .shortbio-container {
   min-height: 75vh;
   display: flex;
@@ -10,8 +15,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; */
-  background-color: black;
-  padding-top: 3rem;
 }
 
 .short-bio {
@@ -39,4 +42,14 @@
 
 .short-info {
   width: 275px;
+}
+
+hr {
+  margin-bottom: 2rem;
+  width: 90%;
+}
+
+.funpic {
+  width: 50%;
+
 }
