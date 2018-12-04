@@ -19,6 +19,9 @@
   padding-bottom: 1rem;
 }
 
+/* .longbio-contact {
+} */
+
 .longbio-text-section {
   width: 50%;
   text-align: left;
@@ -32,4 +35,44 @@
 .image-contact-section {
   width: 30%;
   padding-top: 4px;
+}
+
+@media screen and (max-width: 650px) {
+
+  .longbio-text-section {
+    width: 40%;
+  }
+
+  .image-contact-section {
+    margin-right: 1rem;
+  }
+
+  .longbio-contact {
+    width: fit-content;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+
+.longbio-card {
+  padding-left: 3rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.longbio-text-section {
+    width: 80%;
+  }
+
+.longbio-text {
+    font-size: 0.8rem;
+}
+
+.longbio-name {
+  font-size: 1.4rem;
+}
+
 }

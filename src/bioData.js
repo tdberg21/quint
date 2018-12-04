@@ -6,7 +6,7 @@ import dberg from './assets/dberg.jpg';
 
 export const bioData = [
   {
-    name: 'Robert Dannenberg',
+    name: 'Rob Dannenberg',
     email: 'robdberg99@gmail.com',
     phone: '703-943-9146',
     lastName: 'dannenberg',

@@ -14,8 +14,8 @@ const LongBio = (props) => {
       <div className='longbio-card'> 
         <section className='image-contact-section'> 
           <img src={props.source} alt={props.lastName} className='short-bio-image'/>
-          <p>Email: {props.email}</p>
-          <p>Phone: {props.phone}</p>
+          <p className='longbio-contact'>Email: {props.email}</p>
+          <p className='longbio-contact longbio-phone'>Phone: {props.phone}</p>
         </section> 
         <div className='longbio-text-section'>
         {infoToDisplay}
