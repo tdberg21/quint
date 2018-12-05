@@ -12,7 +12,7 @@ export const text = [
     source: 'Major Financial Services Firm'
   },
   {
-    testimonial: 'My firm has significant exposure in energy markets.Quint Advisors provided me with privileged and unique insights into the impact of the Islamic State’s activities in Iraq and the potential expansion of their influence into North Africa. This level of insight and context can’t be acquired from newspapers or journals. These are the real guys and understand geo-political risk from real world experience.',
+    testimonial: 'My firm has significant exposure in energy markets. Quint Advisors provided me with privileged and unique insights into the impact of the Islamic State’s activities in Iraq and the potential expansion of their influence into North Africa. This level of insight and context can’t be acquired from newspapers or journals. These are the real guys and understand geo-political risk from real world experience.',
     source: 'Hedge Fund Portfolio Manager'
   }
 ];
