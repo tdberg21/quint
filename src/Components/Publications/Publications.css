@@ -1,0 +1,54 @@
+.publications-component {
+  margin: 1rem;
+}
+
+.cipher-article {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cipher-article h4 {
+  text-decoration: underline;
+}
+
+.cipher-article a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding-left: 4px;
+}
+
+.cipher-article a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.article-text {
+  margin: 0.5rem;
+}
+
+.article-subheader {
+  font-size: 0.8rem;
+}
+
+.article-paragraphs {
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.publications-component hr {
+  border: 1px solid black;
+  width: 75%;
+  margin-top: 2rem;
+}
+
+.cipher-links-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.cipher-links {
+  color: red;
+}

@@ -10,6 +10,7 @@ import LongBio from '../LongBio/LongBio.js';
 import { bioData } from '../../bioData.js';
 import Contact from '../Contact/Contact.js';
 import Testimonials from '../Testimonials/Testimonials.js';
+import Publications from '../Publications/Publications.js';
 
 class App extends Component {
   constructor() {
@@ -63,6 +64,7 @@ class App extends Component {
         <Route exact path='/products' component={Products} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/testimonials' component={Testimonials} />
+        <Route exact path='/publications' component={Publications} />
         <Route path='/bios/:name' render={({ match }) => {
           let info = bioData.find(bio => {
             return bio.lastName === match.params.name; 
@@ -84,6 +86,7 @@ const Menu = (props) => (
       <NavLink to='/bios' className="responsive-header-bar-nav-links">Individual Bios</NavLink>
       <NavLink to='/contact' className="responsive-header-bar-nav-links">Contact Us</NavLink>
       <NavLink to='/testimonials' className="responsive-header-bar-nav-links">Client Testimonials</NavLink>
+      <NavLink to='/publications' className="responsive-header-bar-nav-links">Publications</NavLink>
     </div>
   </span>
 )
