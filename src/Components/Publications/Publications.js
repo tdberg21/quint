@@ -4,6 +4,33 @@ import './Publications.css';
 const Publications = () => {
   return (
     <div className='publications-component'>
+      <div className='cipher-links-container'>
+        <a
+          href='https://www.thecipherbrief.com/experts/rob-dannenberg'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='cipher-links'
+        >
+          Rob Dannenberg- Cipher Brief Publications
+        </a>
+        <a
+          href='https://www.thecipherbrief.com/experts/michael-sulick'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='cipher-links'
+        >
+          Mike Sulick- Cipher Brief Publications
+        </a>
+        <a
+          href='https://www.thecipherbrief.com/experts/paul-kolbe'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='cipher-links'
+        >
+          Paul Kolbe- Cipher Brief Publications
+        </a>
+      </div>
+      <hr></hr>
       <article className='cipher-article'>
         <h4 className='article-text'>The Business Executive’s Guide to Retaliatory Arrests</h4>
         <h6 className='article-text article-subheader'>January 7, 2019 | The Cipher Brief | 
@@ -53,33 +80,6 @@ const Publications = () => {
             Geopolitical issues are a serious factor in international business travel. The days when carrying a U.S. or western passport or being engaged in a developmental business or NGO that provided some form of protection are long gone.  Be the prudent traveler who is aware of the risks and take appropriate actions.
           </p>
       </article>
-      <hr></hr>
-      <div className='cipher-links-container'>
-        <a 
-          href='https://www.thecipherbrief.com/experts/rob-dannenberg' 
-          target='_blank' 
-          rel='noopener noreferrer'
-          className='cipher-links'
-        > 
-         Rob Dannenberg- Cipher Brief publications
-        </a>
-        <a 
-          href='https://www.thecipherbrief.com/experts/michael-sulick' 
-          target='_blank' 
-          rel='noopener noreferrer'
-          className='cipher-links'
-        >
-        Mike Sulick- Cipher Brief publications
-        </a>
-        <a 
-          href='https://www.thecipherbrief.com/experts/paul-kolbe' 
-          target='_blank' 
-          rel='noopener noreferrer'
-          className='cipher-links'
-        >
-        Paul Kolbe- Cipher Brief publications
-        </a>
-      </div>
     </div>
   )
 }
