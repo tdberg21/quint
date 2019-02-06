@@ -80,6 +80,26 @@ const Publications = () => {
             Geopolitical issues are a serious factor in international business travel. The days when carrying a U.S. or western passport or being engaged in a developmental business or NGO that provided some form of protection are long gone.  Be the prudent traveler who is aware of the risks and take appropriate actions.
           </p>
       </article>
+      <hr></hr>
+      <article className='cipher-article'>
+        <h4 className='article-text'>“Not Just There for Three-Letter Agencies”— A CEO’s Brief Guide to Intelligence</h4>
+        <h6 className='article-text article-subheader'>January 16, 2019 |
+          <a
+            href='https://www.thecipherbrief.com/experts/paul-kolbe'
+            title='Cipher Brief articles by Paul Kolbe'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Paul Kolbe
+          </a>
+        </h6>
+        <p className='article-text article-paragraphs'>
+          Presidents and generals depend upon timely intelligence to shape their decisions in a world of ambiguity, hostile actors and disinformation. The savviest leaders in the private sector do the same.
+        </p>
+        <p className='article-text article-paragraphs'>
+          Governments have broad intelligence authorities and powerful tools unavailable to the public sector, but they do not have a monopoly on the application of intelligence methodology and tradecraft. Your company can and should use systematic and legal intelligence collection and analysis to manage risk, identify opportunity and make better decisions.
+        </p>
+      </article>
     </div>
   )
 }
