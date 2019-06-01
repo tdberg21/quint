@@ -84,7 +84,7 @@ const Menu = (props) => (
   <span className="display-toggle" onClick={() => props.toggleHidden()} onMouseLeave={() => props.hideMenu()}>
     <div className="responsive-header-bar">
       <NavLink to='/' className="responsive-header-bar-nav-links" value='home' onClick={(event) => setPageName(event)}>Home</NavLink>
-      <NavLink to='/threat' className="responsive-header-bar-nav-links"> <button value='threat' onClick={(event) => setPageName(event)}>The Threat</button></NavLink>
+      <NavLink to='/threat' className="responsive-header-bar-nav-links" onClick={(event) => setPageName(event)}> The Threat</NavLink>
       <NavLink to='/whoweare' className="responsive-header-bar-nav-links" value='home' onClick={(event) => setPageName(event)}>Who We Are</NavLink>
       <NavLink to='/products' className="responsive-header-bar-nav-links">What We Offer</NavLink>
       <NavLink to='/bios' className="responsive-header-bar-nav-links">Individual Bios</NavLink>
