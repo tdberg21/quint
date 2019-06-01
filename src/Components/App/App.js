@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
 import { Route, NavLink } from 'react-router-dom';
+import { bioData } from '../../bioData.js';
+import './App.css';
 import Threat from '../Threat/Threat.js';
 import Home from '../Home/Home.js';
 import GroupInfo from '../GroupInfo/GroupInfo.js';
 import ShortBioContainer from '../ShortBioContainer/ShortBioContainer.js';
 import Products from '../Products/Products.js';
 import LongBio from '../LongBio/LongBio.js';
-import { bioData } from '../../bioData.js';
 import Contact from '../Contact/Contact.js';
 import Testimonials from '../Testimonials/Testimonials.js';
 import Publications from '../Publications/Publications.js';
@@ -17,7 +17,8 @@ class App extends Component {
     super();
 
     this.state = {
-      isHidden: true
+      isHidden: true,
+      pageName: ''
     }
   }
 
@@ -39,6 +40,8 @@ class App extends Component {
     })
   }
 
+  
+
   render() {
     return (
       <div className='App'>
@@ -47,6 +50,7 @@ class App extends Component {
           <h1 className='header-title'>Quint Advisors</h1>
           <p className='header-subtitle'>A geopolitical, security and cyber risk advisory practice.</p>
           </div>
+          <h2> </h2>
           <div className='header-menu'>
             <button 
               className='menu-button'
@@ -79,9 +83,9 @@ class App extends Component {
 const Menu = (props) => (      
   <span className="display-toggle" onClick={() => props.toggleHidden()} onMouseLeave={() => props.hideMenu()}>
     <div className="responsive-header-bar">
-      <NavLink to='/' className="responsive-header-bar-nav-links">Home</NavLink>
-      <NavLink to='/threat' className="responsive-header-bar-nav-links">The Threat</NavLink>
-      <NavLink to='/whoweare' className="responsive-header-bar-nav-links">Who We Are</NavLink>
+      <NavLink to='/' className="responsive-header-bar-nav-links" value='home' onClick={(event) => setPageName(event)}>Home</NavLink>
+      <NavLink to='/threat' className="responsive-header-bar-nav-links" onClick={(event) => setPageName(event)}> The Threat</NavLink>
+      <NavLink to='/whoweare' className="responsive-header-bar-nav-links" value='home' onClick={(event) => setPageName(event)}>Who We Are</NavLink>
       <NavLink to='/products' className="responsive-header-bar-nav-links">What We Offer</NavLink>
       <NavLink to='/bios' className="responsive-header-bar-nav-links">Individual Bios</NavLink>
       <NavLink to='/contact' className="responsive-header-bar-nav-links">Contact Us</NavLink>
@@ -90,5 +94,9 @@ const Menu = (props) => (
     </div>
   </span>
 )
+
+const setPageName = (event) => {
+  console.log(event)
+}
 
 export default App;

@@ -32,6 +32,96 @@ const Publications = () => {
       </div>
       <hr></hr>
       <article className='cipher-article'>
+        <h4 className='article-text'>Critical Areas for Family Office Leadership
+        </h4>
+        <h6 className='article-text article-subheader'><i>from the former Chief Security Officers of Goldman Sachs and Fidelity Investments</i>
+        </h6>
+        <p className='article-text article-paragraphs'>
+          Since retiring from their top posts at marquee entities, Rob Dannenberg and John O'Connor have been guiding high net worth families in the area of risk and security. Both spent years protecting and advising some of the most influential entrepreneurs in the United States on a wide-range of risk topics.  In this chapter of their careers, they’re sharing expertise with families who want to better understand current threats and more importantly, practical strategies to mitigate risk.
+          </p>
+        <p className='article-text article-paragraphs'>
+          While Rob and John held top security spots for years at Goldman & Fidelity, respectively, the foundation of their careers is actually quite different, contributing to their unique perspective -- and ultimately, the value shared with clients.  Rob came from the CIA and had a distinguished career spanning the globe, including senior posts in countries that dominate today’s news. His views on geopolitical risk are influenced by decades of experience from a vantage point few have (or can imagine). John came to Fidelity from Deloitte, where he was a Partner and leader of their forensic accounting practice in Boston.  John’s experience at Fidelity included ultimate responsibility for investigating all fraud attempts across Fidelity’s customer platform (60+ million accounts) for over a decade. This is experience few have in today’s challenge of cybercrime and online fraud schemes.
+          </p>
+        <p className='article-text article-paragraphs'>
+          While both can write on a variety of topics, their recent experience with many executives and family offices were a catalyst for this document.  They see common gaps and misconceptions in how high net worth clients view risk for themselves and their families. This article is simply a starting point to frame some of those areas and perhaps generate some additional thought on how best to gain comfort.
+          </p>
+        <b className='article-paragraphs'>Digital Footprint for You and Your Family</b>
+        <p className='article-text article-paragraphs'>
+          Many executives to whom we speak consider themselves “below the radar” and worry more about their kids in this area than themselves.  While it’s common to have younger generations exposing more personal information on the internet, you may not be as stealthy as you think.  Economic criminals tend to have very strong research capabilities and whether it’s philanthropic activity, executive biographies or regulatory filings, there is often a treasure trove of information available – over and above what is scraped from social network activity for the family.  Why is this important? Personal data is the easiest path for a criminal to customize an email used to infect your system with malware (known as phishing). While the email may appear benign, coming from the local golf club or charity you love, the malware attached is used to steal your ID and password at financial institutions. Knowing what’s out there about you and having good online hygiene can help you avoid many headaches.
+          </p>
+        <b className='article-paragraphs'>Who’s the Enemy When it Comes to Online Fraud in Financial Accounts?</b>
+        <p className='article-text article-paragraphs'>
+          With daily news related to Russia and China, it’s easy to conclude the adversary for brokerage account fraud is one of these nation-states.  Contrary to that view, most individual financial fraud cases are not performed at the nation-state level.  In reality, the adversaries are sophisticated economic criminals, who may operate in Russia or Eastern Europe, but are skilled entrepreneurs in the highly profitable business of identity theft and exfiltration of financial assets.  With all the rhetoric and scare tactics circulating, it’s common for individuals to be confused on what to do, or to whom to turn for help. There are, in fact, some fundamental things you can do to protect yourself and your family. Some are technical but many are not. To start, you need to make it difficult for criminals to impersonate you while logging into financial accounts. Traditional passwords, no matter their length, are of limited value and quite easy to steal for experienced criminals. Second, making it more difficult to pull cash out is also important.  Some of this is a function of your financial institution but some is within your control. For example, most people think of “freezing credit” as simply preventing a criminal from opening a new credit card in your name. Actually, the primary benefit of a freeze is the prevention of criminals opening new bank or investment accounts in your name – these often serve as outbound channels for the criminal to transfer funds abroad. By the time you know there’s a new account, it’s often after the money is gone.
+          </p>
+        <b className='article-paragraphs'>Geopolitical Risk Might Be More Personal Than You Think</b>
+        <p className='article-text article-paragraphs'>
+          In today’s risk environment—especially in the cyber domain—nation-state adversaries of the United States or the West, incapable of responding militarily or economically to actions taken by the United States (such as sanctions) are increasingly using cyber as a means to retaliate.  Cyber offers the advantages of relatively precise targeting and difficulty of attribution. As examples in recent years have shown, the target set selected by nation state adversaries is not random but carefully selected to “send a message” or cause pain and embarrassment to prominent individuals or entities (and thus strike the U.S.) yet the attacks fall short of the type of disruption that would force a kinetic response from the United States. Two examples are North Korea’s targeting of Sony Pictures and Entertainment for the production of a film perceived to be critical of Kim Jong-Un and Iran’s targeting of Las Vegas Sands Casinos when the Founder and Chairman Sheldon Adelson made off the record remarks in a speech at Yeshiva University critical of the Iranian regime. While these were high profile state-sponsored acts of the use of cyber for political retaliation, there have been many unpublished lower-profile examples of nation-states trolling the internet looking for comments or political activity by high profile or net worth individuals perceived by these regimes to be hostile. Often these retaliatory nation-state actions are masqueraded as activities by common cyber criminals. In this environment it is prudent to be regularly aware of your profile in the surface, gray, and deep web environments.  Are your donations or “off-the-record” or are they available on the web ready to be added to the matrix of targets by hostile nation-state?  Useful to know.
+          </p>
+        <b className='article-paragraphs'>There May Be More Risk in Travel Than Flight Delays</b>
+        <p className='article-text article-paragraphs'>
+          The December 1, 2017 detention of Huawei CFO Meng Wanzhou in Vancouver by Canadian authorities acting on a request by the United States, may have been more consequential than many realize.  China protested the detention immediately and described it as a hostile political act. China then responded by detaining two Canadian citizens, including a former diplomat, and charging them with crimes against national security. Moreover, the Chinese used the appeal process of the trial of a Canadian citizen charged with drug trafficking for which he had received a 15-year prison term to change the sentence to the death. While this is an extreme example, Russia has similarly recently detained a U.S. citizen seemingly to be held hostage for actions the U.S. has taken against Russian citizens Maria Butina and Victor Bout, the former with presumed connections to Russian intelligence and the latter with known connections to Russian oligarchs close to Russian President Putin. While these incidents might indicate risk with travel to Russia and China, the risk may well extend to contiguous countries and regions where Russian and Chinese intelligence and security services have capabilities and influence. After all, Meng was detained in Canada at the request of the U.S.  You might wonder if states like Russia or China would want to incur the risk and negative publicity that would come with the detention of a wealthy or prominent American.  We would remind readers that Meng Wanzhou is a very wealthy and prominent Chinese female business executive. She is the daughter of Huawei’s founder, Vice Chair of China’s largest private company, and is arguably the Chinese equivalent of Sheryl Sandberg.  So it may be risky to assume the Chinese wouldn’t take action against an equivalent U.S. citizen especially if Meng is extradited. There are steps that you, your employees and family can take to reduce the risks of being caught up in a geopolitical tug-of-war, but those steps may not be either intuitive or convenient. They are, however, worth knowing and observing.
+          </p>
+        <p className='article-text article-paragraphs'>
+          Obviously, the topics above are a small fraction of what these men convey to their new clientele.  All aspects of security and risk are on the table when they meet with clients and it’s typical that executives or family offices want to know how they’re doing in certain areas or what they haven’t thought about? Whether the concern is cybercrime, geopolitical risk or the valley of issues in between, it’s unusual to have direct access to professionals with credentials such as Rob and John.  Just as important, these men have spent their careers operating with great discretion and understand the importance of trust in the family office environment.  If you have a need in the risk or security area, contact information is provided for each in the contact section.
+          </p>
+      </article>
+      <hr></hr>
+      <article className='cipher-article'>
+        <h4 className='article-text'>Six Degrees of Russia</h4>
+        <h6 className='article-text article-subheader'>May 14, 2019 |
+          <a
+            href='https://www.thecipherbrief.com/experts/rob-dannenberg'
+            title='Cipher Brief articles by Rob Dannenberg'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Rob Dannenberg
+          </a>
+        </h6>
+        <p className='article-text article-paragraphs'>
+          <i className='article-paragraphs'>Tuesday’s meeting between U.S. Secretary of State Mike Pompeo and Russian Foreign Minister Sergey Lavrov covered a wide range of issues, including arms control, the situation in Venezuela, Iran, North Korea, Syria, to name a few.</i>
+        </p>
+        <p className='article-text article-paragraphs'>
+          <i className='article-paragraphs'>The Cipher Brief reached out to expert, Robert Dannenberg, a 24-year veteran of the CIA and former head of the Office of Global Security for Goldman Sachs, as well as former director of International Security Affairs for BP to get his take.</i>
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>The Cipher Brief: </b>
+          Did the U.S. gain anything from Tuesday’s meeting between Pompeo and Lavrov?
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>Dannenberg: </b>
+          That remains to be seen.  At the outset, it seems like dialogue for the sake of dialogue.  Many have speculated President Trump feels the vindication of the Mueller report has created an opening to reset relations with Russia.  This wouldn’t be the first “reset” in recent times and I am skeptical this reset will have a different result than the previous efforts.
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>The Cipher Brief: </b>
+          Is Russia an important partner for the U.S. on the issues that were on the agenda, to include arms control, Venezuela, Iran, North Korea, Syria and a few other issues?
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>Dannenberg: </b>
+          Like it or not, none of the problems on the agenda can be solved without Russia.  They may not be able to be solved even if we engage with Russia.  But they would likely become a lot worse without engaging with Russia.  Russia views engagement with the US on problems beyond the Central Eurasian region as a validation of Russia’s return to “super power” or world power status.  This is a key element in Putin’s world view and overall strategy.  He states it often.  To wit, the unipolar US/NATO-led world has failed to preserve world and strategic stability.  Putin believes a bi-polar or multi-polar world model more closely replicates what he views as the “stability” of the bi-polar Cold War model.
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>The Cipher Brief: </b>
+          Pompeo said he communicated to the Russians that there were tangible steps Russia could take to demonstrate that they will not interfere with U.S. elections.  Based on Russia’s pattern of hybrid warfare that has included election interference, is it reasonable to assume that Russia will heed a warning, or respond to a call not to interfere?
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>Dannenberg: </b>
+          No reasonable observer has any doubt Russia has used its massive cyber and intelligence capabilities for the past decade to engage in a comprehensive effort to influence elections and disrupt the social and political order of its geopolitical opponents.  I think Russia’s use of this tool, most pointedly in disrupting the US social and political order since 2016 and before, will go down as the most cost effective “active measure”—the Russian term for covert action—in history.  If you look at the body of evidence of Russia’s effort right now to influence the result of the European Parliament elections you need to recognize Putin is not in any way dissuaded by the punitive measures thus far used.  Nor is he likely to be dissuaded, by his calculus he has achieved exactly what he set out to achieve.  The economic disruption caused by US and western sanctions is merely an inconvenience in Putin’s eyes.  It is well and good that Pompeo delivered a strong message.  I fear it is unlikely to have any effect.
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>The Cipher Brief: </b>
+          Both sides agreed to ‘rebuild channels of communication’.  Do you see any specific opportunities that the U.S. could gain from that?
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>Dannenberg: </b>
+          Communication is better than lack of communication, almost always.  When the risk of conflict by mistake or miscalculation is as acute as it is at the moment (think Iran, Venezuela, or the Korean Peninsula, for example), as a first step, rebuilding military-to-military and intel-to-intel communication channels, many suspended since 2014 seems sensible to me.  If we handle those channels effectively, we will reduce risk and maybe learn something in the process.
+        </p>
+        <p className='article-text article-paragraphs'>
+          Russia is a bit like six degrees of Kevin Bacon.  There isn’t a geopolitical risk in the world that it would take anything near six steps to get to Russia.  Those who suggest ignoring or isolating Russia without a comprehensive strategy for dealing with Putinism just don’t get it.  We need a 21st Century George Kennan to help develop that strategy.
+        </p>       
+      </article>
+      <hr></hr>
+      <article className='cipher-article'>
         <h4 className='article-text'>“Not Just There for Three-Letter Agencies”— A CEO’s Brief Guide to Intelligence</h4>
         <h6 className='article-text article-subheader'>January 16, 2019 |
           <a
