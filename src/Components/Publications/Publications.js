@@ -67,6 +67,61 @@ const Publications = () => {
       </article>
       <hr></hr>
       <article className='cipher-article'>
+        <h4 className='article-text'>Six Degrees of Russia</h4>
+        <h6 className='article-text article-subheader'>May 14, 2019 |
+          <a
+            href='https://www.thecipherbrief.com/experts/rob-dannenberg'
+            title='Cipher Brief articles by Rob Dannenberg'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Rob Dannenberg
+          </a>
+        </h6>
+        <p className='article-text article-paragraphs'>
+          <i className='article-paragraphs'>Tuesday’s meeting between U.S. Secretary of State Mike Pompeo and Russian Foreign Minister Sergey Lavrov covered a wide range of issues, including arms control, the situation in Venezuela, Iran, North Korea, Syria, to name a few.</i>
+        </p>
+        <p className='article-text article-paragraphs'>
+          <i className='article-paragraphs'>The Cipher Brief reached out to expert, Robert Dannenberg, a 24-year veteran of the CIA and former head of the Office of Global Security for Goldman Sachs, as well as former director of International Security Affairs for BP to get his take.</i>
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>The Cipher Brief: </b>
+          Did the U.S. gain anything from Tuesday’s meeting between Pompeo and Lavrov?
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>Dannenberg: </b>
+          That remains to be seen.  At the outset, it seems like dialogue for the sake of dialogue.  Many have speculated President Trump feels the vindication of the Mueller report has created an opening to reset relations with Russia.  This wouldn’t be the first “reset” in recent times and I am skeptical this reset will have a different result than the previous efforts.
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>The Cipher Brief: </b>
+          Is Russia an important partner for the U.S. on the issues that were on the agenda, to include arms control, Venezuela, Iran, North Korea, Syria and a few other issues?
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>Dannenberg: </b>
+          Like it or not, none of the problems on the agenda can be solved without Russia.  They may not be able to be solved even if we engage with Russia.  But they would likely become a lot worse without engaging with Russia.  Russia views engagement with the US on problems beyond the Central Eurasian region as a validation of Russia’s return to “super power” or world power status.  This is a key element in Putin’s world view and overall strategy.  He states it often.  To wit, the unipolar US/NATO-led world has failed to preserve world and strategic stability.  Putin believes a bi-polar or multi-polar world model more closely replicates what he views as the “stability” of the bi-polar Cold War model.
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>The Cipher Brief: </b>
+          Pompeo said he communicated to the Russians that there were tangible steps Russia could take to demonstrate that they will not interfere with U.S. elections.  Based on Russia’s pattern of hybrid warfare that has included election interference, is it reasonable to assume that Russia will heed a warning, or respond to a call not to interfere?
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>Dannenberg: </b>
+          No reasonable observer has any doubt Russia has used its massive cyber and intelligence capabilities for the past decade to engage in a comprehensive effort to influence elections and disrupt the social and political order of its geopolitical opponents.  I think Russia’s use of this tool, most pointedly in disrupting the US social and political order since 2016 and before, will go down as the most cost effective “active measure”—the Russian term for covert action—in history.  If you look at the body of evidence of Russia’s effort right now to influence the result of the European Parliament elections you need to recognize Putin is not in any way dissuaded by the punitive measures thus far used.  Nor is he likely to be dissuaded, by his calculus he has achieved exactly what he set out to achieve.  The economic disruption caused by US and western sanctions is merely an inconvenience in Putin’s eyes.  It is well and good that Pompeo delivered a strong message.  I fear it is unlikely to have any effect.
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>The Cipher Brief: </b>
+          Both sides agreed to ‘rebuild channels of communication’.  Do you see any specific opportunities that the U.S. could gain from that?
+        </p>
+        <p className='article-text article-paragraphs'>
+          <b className='article-paragraphs'>Dannenberg: </b>
+          Communication is better than lack of communication, almost always.  When the risk of conflict by mistake or miscalculation is as acute as it is at the moment (think Iran, Venezuela, or the Korean Peninsula, for example), as a first step, rebuilding military-to-military and intel-to-intel communication channels, many suspended since 2014 seems sensible to me.  If we handle those channels effectively, we will reduce risk and maybe learn something in the process.
+        </p>
+        <p className='article-text article-paragraphs'>
+          Russia is a bit like six degrees of Kevin Bacon.  There isn’t a geopolitical risk in the world that it would take anything near six steps to get to Russia.  Those who suggest ignoring or isolating Russia without a comprehensive strategy for dealing with Putinism just don’t get it.  We need a 21st Century George Kennan to help develop that strategy.
+        </p>       
+      </article>
+      <hr></hr>
+      <article className='cipher-article'>
         <h4 className='article-text'>“Not Just There for Three-Letter Agencies”— A CEO’s Brief Guide to Intelligence</h4>
         <h6 className='article-text article-subheader'>January 16, 2019 |
           <a
