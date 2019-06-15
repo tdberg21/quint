@@ -75,6 +75,13 @@ class App extends Component {
           });
           return <LongBio {...info} />;
         }} />
+        {/* <Route path='/publications/:id' render={({ match }) => {
+          let pubToDisplay = publicationData.find(article => {
+            return article.id === match.params.id; 
+          });
+          return <SinglePublication {...pubToDisplay} />;
+        }} /> */}
+
       </div>
     );
   }
