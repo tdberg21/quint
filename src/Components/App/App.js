@@ -11,6 +11,8 @@ import LongBio from '../LongBio/LongBio.js';
 import Contact from '../Contact/Contact.js';
 import Testimonials from '../Testimonials/Testimonials.js';
 import Publications from '../Publications/Publications.js';
+import publicationData from '../Publications/PublicationsData';
+import SinglePublication from '../SinglePublication/SinglePublication';
 
 class App extends Component {
   constructor() {
@@ -74,6 +76,12 @@ class App extends Component {
             return bio.lastName === match.params.name; 
           });
           return <LongBio {...info} />;
+        }} />
+        <Route path='/publications/:id' render={({ match }) => {
+          let pubToDisplay = publicationData.find(article => {
+            return article.id === parseInt(match.params.id); 
+          });
+          return <SinglePublication {...pubToDisplay} />;
         }} />
       </div>
     );

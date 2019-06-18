@@ -1,5 +1,5 @@
 import React from 'react';
-import { bioData } from '../../bioData.js';
+import { bioData } from '../../bioData';
 import './Contact.css';
 
 const Contact = () => {

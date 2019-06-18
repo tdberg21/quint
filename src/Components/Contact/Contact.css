@@ -25,9 +25,6 @@
   .contact-card {
     width: 80%;
   }
-  .contact-text {
-    /* font-size: 0.6rem; */
-  }
 
   .contact-component {
     flex-direction: column;
