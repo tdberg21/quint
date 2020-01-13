@@ -16,6 +16,14 @@ const LongBio = (props) => {
           <img src={props.source} alt={props.lastName} className='short-bio-image'/>
           <p className='longbio-contact'>Email: {props.email}</p>
           <p className='longbio-contact longbio-phone'>Phone: {props.phone}</p>
+          <a
+            href={props.cipherLink}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='cipher-links'
+          >
+            Publications
+        </a>
         </section> 
         <div className='longbio-text-section'>
         {infoToDisplay}
