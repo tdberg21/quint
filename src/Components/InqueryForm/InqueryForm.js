@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './InqueryForm.css';
 
 class InqueryForm extends Component {
   constructor() {
     super();
 
     this.state = {
-      firstName: '',
+      name: '',
       lastName: '',
       firm: '',
       phone: '',
@@ -30,69 +31,67 @@ class InqueryForm extends Component {
 
   render() {
     return (
-      <div>
-        <form onSubmit={this.handleSubmit}>
-          <label htmlFor="firstName">
-            First Name:
+      <div className="inquery-form-component">
+        <form onSubmit={this.handleSubmit} className="inquery-form">
+          <div className="inquery-form-sections name-section">
+            <label htmlFor="name">Name:</label>
             <input
               type="text"
               value={this.state.value}
-              id="firstName"
-              name="firstName"
+              id="name"
+              name="name"
               onChange={this.handleChange}
+              className="inquery-form-inputs"
             />
-          </label>
-          <label htmlFor="lastName">
-            Last Name:
-            <input
-              type="text"
-              value={this.state.value}
-              id="lastName"
-              name="lastName"
-              onChange={this.handleChange}
-            />
-          </label>
-          <label htmlFor="firm">
-            Firm:
+          </div>
+          <div className="inquery-form-sections firm-section">
+            <label htmlFor="firm">Firm:</label>
             <input
               type="text"
               value={this.state.value}
               id="firm"
               name="firm"
               onChange={this.handleChange}
+              className="inquery-form-inputs"
             />
-          </label>
-          <label htmlFor="phone">
-            Phone:
+          </div>
+          <div className="inquery-form-sections phone-section">
+            <label htmlFor="phone">Phone:</label>
             <input
               type="text"
               value={this.state.value}
               id="phone"
               name="phone"
               onChange={this.handleChange}
+              className="inquery-form-inputs"
             />
-          </label>
-          <label htmlFor="email">
-            Email:
+          </div>
+          <div className="inquery-form-sections email-section">
+            <label htmlFor="email">Email:</label>
             <input
-              type="text"
+              type="email"
               value={this.state.value}
               id="email"
               name="email"
               onChange={this.handleChange}
+              className="inquery-form-inputs"
             />
-          </label>
-          <label htmlFor="concernArea">
-            Area of Concern:
-            <input
+          </div>
+          <div className="inquery-form-sections concern-area-section">
+            <label htmlFor="concernArea">Area of Concern:</label>
+            <textarea
               type="text"
               value={this.state.value}
               id="concernArea"
               name="concernArea"
               onChange={this.handleChange}
             />
-          </label>
-          <input type="submit" value="Submit" />
+          </div>
+          <input
+            type="submit"
+            value="Submit"
+            className="inquery-submit-button"
+          />
         </form>
       </div>
     );
