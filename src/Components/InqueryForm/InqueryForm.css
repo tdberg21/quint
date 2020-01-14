@@ -1,0 +1,63 @@
+.inquery-form-component {
+  min-height: 75vh;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.inquery-form {
+  min-width: fit-content;
+  width: 75%;
+  margin: 0 auto;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  padding: 1rem 0;
+}
+
+.inquery-form-sections {
+  display: flex;
+}
+
+.inquery-form label {
+  margin: 0 1rem;
+  width: 20%;
+  text-align: left;
+}
+
+.inquery-form-inputs {
+  width: 65%;
+}
+
+.inquery-form textarea {
+  width: 65%;
+}
+
+.inquery-submit-button {
+  width: 20%;
+  margin: 0 auto;
+  background-color: lightslategray;
+  color: white;
+}
+
+.inquery-submit-button:hover {
+  cursor: pointer;
+  border: 1px red solid;
+}
+
+@media screen and (max-width: 490px) {
+  .inquery-form label {
+    font-size: 0.75rem;
+  }
+
+  .inquery-form {
+    padding: 0;
+    border: none;
+  }
+
+  .inquery-submit-button {
+  font-size: 0.75rem;
+  }
+}
+
