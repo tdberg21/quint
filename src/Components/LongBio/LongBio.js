@@ -9,29 +9,40 @@ const LongBio = (props) => {
     )
   })
   return (
-    <div className='longbio-component'>
-      <h2 className='longbio-name'>{props.name}</h2>
-      <div className='longbio-card'> 
-        <section className='image-contact-section'> 
-          <img src={props.source} alt={props.lastName} className='short-bio-image'/>
-          <p className='longbio-contact'>Email: {props.email}</p>
-          <p className='longbio-contact longbio-phone'>Phone: {props.phone}</p>
+    <div className="longbio-component">
+      <h2 className="longbio-name">{props.name}</h2>
+      <div className="longbio-card">
+        <section className="image-contact-section">
+          <img
+            src={props.source}
+            alt={props.lastName}
+            className="short-bio-image"
+          />
+          <p className="longbio-contact">Email: {props.email}</p>
+          <p className="longbio-contact longbio-phone">Phone: {props.phone}</p>
           <a
             href={props.cipherLink}
-            target='_blank'
-            rel='noopener noreferrer'
-            className='cipher-links'
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cipher-links"
           >
             Publications
-        </a>
-        </section> 
-        <div className='longbio-text-section'>
-        {infoToDisplay}
-        </div>
+          </a>
+          <p>
+            <Link to="/inquery" className="group-link">
+              {' '}
+              Inquire{' '}
+            </Link>
+          </p>
+        </section>
+        <div className="longbio-text-section">{infoToDisplay}</div>
       </div>
-        <Link to='/bios' className='group-link'> Back to Group </Link>
+      <Link to="/bios" className="group-link">
+        {' '}
+        Back to Group{' '}
+      </Link>
     </div>
-  )
+  );
 };
 
 export default LongBio;
