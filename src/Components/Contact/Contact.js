@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { bioData } from '../../bioData';
 import './Contact.css';
 
@@ -13,10 +14,15 @@ const Contact = () => {
     )
   })
   return (
-    <div className='contact-component'>
-      {infoToDisplay}
+    <div className="contact-component">
+      {/* <p> */}
+      <Link to="/inquery" className="group-link">
+        Inquire
+      </Link>
+      {/* </p> */}
+      <div className="contact-card-container">{infoToDisplay}</div>
     </div>
-  )
+  );
 }
 
 export default Contact;

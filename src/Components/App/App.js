@@ -13,6 +13,7 @@ import Testimonials from '../Testimonials/Testimonials.js';
 import Publications from '../Publications/Publications.js';
 import publicationData from '../Publications/PublicationsData';
 import SinglePublication from '../SinglePublication/SinglePublication';
+import InqueryForm from '../InqueryForm/InqueryForm';
 
 class App extends Component {
   constructor() {
@@ -71,6 +72,7 @@ class App extends Component {
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/testimonials' component={Testimonials} />
         <Route exact path='/publications' component={Publications} />
+        <Route exact path='/inquery' component={InqueryForm} />
         <Route path='/bios/:name' render={({ match }) => {
           let info = bioData.find(bio => {
             return bio.lastName === match.params.name; 
