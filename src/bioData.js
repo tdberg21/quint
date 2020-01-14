@@ -58,9 +58,10 @@ export const bioData = [
            short:
              "Current Senior Geopolitical & Security Analyst at Fidelity Management and Research Company (FMRCo) and a 25 year career in CIA's Clandestine Service where he retired as a member of the Senior Intelligence Service",
            info: [
-             "David Bridges is the senior geopolitical and security analyst at Fidelity Management and Research Company (FMRCo), the investment advisor for Fidelity's family of mutual funds. In this role, David provides expert geopolitical assessment to Fidelity investors.",
-             "Prior to joining Fidelity in 2012, David served a 25-year career in the Central Intelligence Agency's (CIA) Clandestine Service. David retired from CIA in 2011. At the time of his retirement, he was a member of the Senior Intelligence Service, the elite leadership team that guides CIA activities across the globe. Over the course of his career, David held a number of critical positions, to include executive oversight of all CIA activity in Russia, the former Soviet Union, central and eastern Europe, and the Balkans, operational coordination of all CIA offensive and defensive counterintelligence operations worldwide, and several assignments as chief of station. Prior to joining CIA, David spent five years working for a peacekeeping force in the Middle East. He has been in the investments industry since 2012.",
-             "David earned his bachelor's degree with high honors from Dartmouth college and his master's degree from the University of Chicago's Center for Middle Eastern Studies. He speaks five languages."
+             'David Bridges is the senior geopolitical advisor for Fidelity Investments.  In this role, Mr. Bridges provides expert geopolitical assessment and analysis for Fidelity investors and institutional clients.',
+             'Before joining Fidelity in 2012, Mr. Bridges spent 25 years in the Central Intelligence Agency’s Directorate of Operations.  He was a member of the Senior Intelligence Service and served in five overseas assignments, three as chief of station.  His awards include the Distinguished Career Intelligence Medal and the George Bush Award for Excellence in Counterterrorism.',
+             'Prior to joining the Central Intelligence Agency, Mr. Bridges spent five years working for a peacekeeping force in the Middle East.',
+             'Mr. Bridges received his bachelor’s degree with high honors in history from Dartmouth College and his master’s degree from the University of Chicago’s Center for Middle Eastern Studies.  He also attended the University of Bucharest.'
            ]
          },
          {
