@@ -1,5 +1,5 @@
 import kolbe from './assets/kolbe.jpg';
-import sulick from './assets/sulick.jpg';
+import sulick from './assets/sulick2.jpg';
 import morgan2 from './assets/morgan.jpg';
 import bridges from './assets/bridges.jpg';
 import dberg from './assets/dberg.jpg';
