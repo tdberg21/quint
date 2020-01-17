@@ -26,7 +26,7 @@ const LongBio = (props) => {
             rel="noopener noreferrer"
             className="cipher-links"
           >
-            Publications
+            {props.cipherLink ? 'Publications' : ''}
           </a>
           <p>
             <Link to="/inquery" className="group-link">
