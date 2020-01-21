@@ -1,7 +1,6 @@
 .contact-component {
-  
-  min-height: 82vh;
-  padding: 2rem;
+  min-height: 74vh;
+  padding: 1rem;
   background-color: #000;
   color: #fff;
 }
@@ -11,12 +10,18 @@
   flex-wrap: wrap;
   text-align: left;
   justify-content: space-around;
+  padding-top: 1rem;
+}
+
+.contact-text {
+    font-size: 0.8rem;
 }
 
 .contact-card {
-  width: 30%;
+  min-width: fit-content;
   height: fit-content;
   margin-left: 1rem;
+  flex-grow: 1;
 }
 
 @media screen and (max-width: 900px) {
