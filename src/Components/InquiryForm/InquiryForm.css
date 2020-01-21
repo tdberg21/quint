@@ -1,10 +1,10 @@
-.inquery-form-component {
+.inquiry-form-component {
   min-height: 75vh;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.inquery-form {
+.inquiry-form {
   min-width: fit-content;
   width: 75%;
   margin: 0 auto;
@@ -16,47 +16,59 @@
   padding: 1rem 0;
 }
 
-.inquery-form-sections {
+.inquiry-form-sections {
   display: flex;
 }
 
-.inquery-form label {
+.inquiry-form label {
   margin: 0 1rem;
   width: 20%;
   text-align: left;
 }
 
-.inquery-form-inputs {
+.inquiry-form-inputs {
   width: 65%;
 }
 
-.inquery-form textarea {
+.inquiry-form textarea {
   width: 65%;
 }
 
-.inquery-submit-button {
+.inquiry-submit-button {
   width: 20%;
   margin: 0 auto;
   background-color: lightslategray;
   color: white;
 }
 
-.inquery-submit-button:hover {
+.inquiry-submit-button:hover {
   cursor: pointer;
   border: 1px red solid;
 }
 
 @media screen and (max-width: 490px) {
-  .inquery-form label {
+  .inquiry-form-component {
+  min-height: 70vh;
+}
+
+  .inquiry-form label {
     font-size: 0.75rem;
   }
 
-  .inquery-form {
+  .inquiry-form {
     padding: 0;
     border: none;
   }
 
-  .inquery-submit-button {
+  .inquiry-form-inputs {
+  width: 55%;
+}
+
+.inquiry-form textarea {
+  width: 55%;
+}
+
+  .inquiry-submit-button {
   font-size: 0.75rem;
   }
 }

@@ -23,7 +23,7 @@ const Advantage = () => {
           private sector, helping to identify and address developing issues and
           solve problems in the same proactive manner as they did in government.
         </p>
-        <Link to="/inquery" className="group-link">
+        <Link to="/inquiry" className="group-link">
           Inquire
         </Link>
       </div>

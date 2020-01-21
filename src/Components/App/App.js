@@ -11,7 +11,7 @@ import LongBio from '../LongBio/LongBio.js';
 import Contact from '../Contact/Contact.js';
 import Testimonials from '../Testimonials/Testimonials.js';
 import Advantage from '../Advantage/Advantage.js';
-import InqueryForm from '../InqueryForm/InqueryForm';
+import InquiryForm from '../InquiryForm/InquiryForm.js';
 
 class App extends Component {
   constructor() {
@@ -62,7 +62,7 @@ class App extends Component {
         </header>
         {!this.state.isHidden && <Menu toggleHidden={() => this.toggleHidden()} hideMenu={() => this.hideMenu()}/>}
         
-        <Route exact path='/' component={Home} />
+        <Route exact path='' component={Home} />
         <Route exact path='/threat' component={Threat} />
         <Route exact path='/whoweare' component={GroupInfo} />
         <Route exact path='/bios' component={ShortBioContainer} />
@@ -70,7 +70,7 @@ class App extends Component {
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/testimonials' component={Testimonials} />
         <Route exact path='/advantage' component={Advantage} />
-        <Route exact path='/inquery' component={InqueryForm} />
+        <Route exact path='/inquiry' component={InquiryForm} />
         <Route path='/bios/:name' render={({ match }) => {
           let info = bioData.find(bio => {
             return bio.lastName === match.params.name; 
