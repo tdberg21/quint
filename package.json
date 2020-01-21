@@ -1,5 +1,6 @@
 {
   "name": "quint",
+  "homepage": "http://quintadvisors.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
