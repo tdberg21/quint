@@ -24,7 +24,7 @@ const LongBio = (props) => {
             href={props.cipherLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="cipher-links"
+            className="cipher-links group-link"
           >
             {props.cipherLink ? 'Publications' : ''}
           </a>

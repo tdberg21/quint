@@ -11,15 +11,15 @@ const Products = () => {
           all pose threats to our clients’ safety, prosperity and resilience.
         </p>
         <p className="groupinfo-text groupinfo-paragraph">
-          ​Q Advisors provides expert perspective on current and potential
+          ​Quint Advisors provides expert perspective on current and potential
           geopolitical risk. We are another set of eyes—discreet and
           experienced—that look at risk factors that affect portfolios and
           markets. Drawing on deep experience managing risk and with access to
-          unparalleled global networks, Q Advisors provides timely insight on
+          unparalleled global networks, Quint Advisors provides timely insight on
           risks that goes behind the headlines and can provide critical decision
           advantage.
         </p>
-        <p className="groupinfo-text groupinfo-paragraph">Q Advisors:</p>
+        <p className="groupinfo-text groupinfo-paragraph">Quint Advisors:</p>
         <ul className="groupinfo-text groupinfo-paragraph">
           <li>
             Provide insight on developments across the globe which impact client
@@ -40,7 +40,7 @@ const Products = () => {
           <li>Advise on the enduring and ambient cyber threats.</li>
         </ul>
         <p className="groupinfo-text groupinfo-paragraph">
-          Q Advisors delivers trusted, confidential counsel and advice. We
+          Quint Advisors delivers trusted, confidential counsel and advice. We
           understand and respect our clients need for absolute discretion.
         </p>
         <Link to="/contact" className="group-link">

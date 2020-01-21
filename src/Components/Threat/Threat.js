@@ -14,7 +14,7 @@ const Threat = () => {
           business and market disruptive. Risk is even more of a threat in
           emerging markets that appear commercially promising but remain heavily
           influenced by undercurrents that can negatively impact the business
-          environment. The extensive knowledge and experience of Q Advisors is
+          environment. The extensive knowledge and experience of Quint Advisors is
           an essential tool in managing domestic and overseas risk as well as
           risk in the cyber domain.
         </p>
