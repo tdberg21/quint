@@ -7,7 +7,7 @@ import dberg from './assets/dberg.jpg';
 export const bioData = [
          {
            name: 'Michael Sulick',
-           email: 'michael.sulick@gmail.com',
+           email: 'michael.sulick@quintadvisors.com',
            phone: '919-949-3778',
            lastName: 'sulick',
            cipherLink: 'https://www.thecipherbrief.com/experts/michael-sulick',
@@ -23,7 +23,7 @@ export const bioData = [
          },
          {
            name: 'Rob Dannenberg',
-           email: 'robdberg99@gmail.com',
+           email: 'robert.dannenberg@quintadvisors.com',
            phone: '703-943-9146',
            lastName: 'dannenberg',
            cipherLink: 'https://www.thecipherbrief.com/experts/rob-dannenberg',
@@ -37,7 +37,7 @@ export const bioData = [
          },
          {
            name: 'Michael Morgan',
-           email: 'archonprincipal@gmail.com',
+           email: 'michael.morgan@quintadvisors.com',
            phone: ' 703-300-2007',
            lastName: 'morgan',
            cipherLink: '',
@@ -50,26 +50,26 @@ export const bioData = [
              'Mr. Morgan has a BA in Government from Dartmouth College and is now a private consultant on geopolitical risk and international security issues.'
            ]
          },
-         {
-           name: 'David Bridges',
-           email: 'ponte2ponti@gmail.com',
-           phone: '781-813-9561',
-           lastName: 'bridges',
-           cipherLink: '',
-           source: bridges,
-           short:
-             "Current Senior Geopolitical & Security Analyst at Fidelity Management and Research Company (FMRCo) and a 25 year career in CIA's Clandestine Service where he retired as a member of the Senior Intelligence Service",
-           info: [
-             'David Bridges is the senior geopolitical advisor for Fidelity Investments.  In this role, Mr. Bridges provides expert geopolitical assessment and analysis for Fidelity investors and institutional clients.',
-             'Before joining Fidelity in 2012, Mr. Bridges spent 25 years in the Central Intelligence Agency’s Directorate of Operations.  He was a member of the Senior Intelligence Service and served in five overseas assignments, three as chief of station.  His awards include the Distinguished Career Intelligence Medal and the George Bush Award for Excellence in Counterterrorism.',
-             'Prior to joining the Central Intelligence Agency, Mr. Bridges spent five years working for a peacekeeping force in the Middle East.',
-             'Mr. Bridges received his bachelor’s degree with high honors in history from Dartmouth College and his master’s degree from the University of Chicago’s Center for Middle Eastern Studies.  He also attended the University of Bucharest.'
-           ]
-         },
+        //  {
+        //    name: 'David Bridges',
+        //    email: 'ponte2ponti@gmail.com',
+        //    phone: '781-813-9561',
+        //    lastName: 'bridges',
+        //    cipherLink: '',
+        //    source: bridges,
+        //    short:
+        //      "Current Senior Geopolitical & Security Analyst at Fidelity Management and Research Company (FMRCo) and a 25 year career in CIA's Clandestine Service where he retired as a member of the Senior Intelligence Service",
+        //    info: [
+        //      'David Bridges is the senior geopolitical advisor for Fidelity Investments.  In this role, Mr. Bridges provides expert geopolitical assessment and analysis for Fidelity investors and institutional clients.',
+        //      'Before joining Fidelity in 2012, Mr. Bridges spent 25 years in the Central Intelligence Agency’s Directorate of Operations.  He was a member of the Senior Intelligence Service and served in five overseas assignments, three as chief of station.  His awards include the Distinguished Career Intelligence Medal and the George Bush Award for Excellence in Counterterrorism.',
+        //      'Prior to joining the Central Intelligence Agency, Mr. Bridges spent five years working for a peacekeeping force in the Middle East.',
+        //      'Mr. Bridges received his bachelor’s degree with high honors in history from Dartmouth College and his master’s degree from the University of Chicago’s Center for Middle Eastern Studies.  He also attended the University of Bucharest.'
+        //    ]
+        //  },
          {
            name: 'Paul Kolbe',
-           email: 'prkolbe@mac.com',
-           phone: '',
+           email: 'paul.kolbe@quintadvisors.com',
+           phone: '703-xxx-xxxx',
            lastName: 'kolbe',
            cipherLink: 'https://www.thecipherbrief.com/experts/paul-kolbe',
            source: kolbe,

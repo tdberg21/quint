@@ -18,8 +18,8 @@ const LongBio = (props) => {
             alt={props.lastName}
             className="short-bio-image"
           />
-          <p className="longbio-contact">Email: {props.email}</p>
-          <p className="longbio-contact longbio-phone">Phone: {props.phone}</p>
+          <p className="longbio-contact">{props.email}</p>
+          <p className="longbio-contact longbio-phone">{props.phone}</p>
           <a
             href={props.cipherLink}
             target="_blank"
