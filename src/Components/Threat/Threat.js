@@ -18,7 +18,7 @@ const Threat = () => {
           an essential tool in managing domestic and overseas risk as well as
           risk in the cyber domain.
         </p>
-        <Link to="/inquery" className="group-link">
+        <Link to="/inquiry" className="group-link">
           Inquire
         </Link>
       </div>

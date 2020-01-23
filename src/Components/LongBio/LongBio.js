@@ -29,7 +29,7 @@ const LongBio = (props) => {
             {props.cipherLink ? 'Publications' : ''}
           </a>
           <p>
-            <Link to="/inquery" className="group-link">
+            <Link to="/inquiry" className="group-link">
               {' '}
               Inquire{' '}
             </Link>

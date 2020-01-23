@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './InqueryForm.css';
+import './InquiryForm.css';
 
-class InqueryForm extends Component {
+class InquiryForm extends Component {
   constructor() {
     super();
 
@@ -31,9 +31,9 @@ class InqueryForm extends Component {
 
   render() {
     return (
-      <div className="inquery-form-component">
-        <form onSubmit={this.handleSubmit} className="inquery-form">
-          <div className="inquery-form-sections name-section">
+      <div className="inquiry-form-component">
+        <form onSubmit={this.handleSubmit} className="inquiry-form">
+          <div className="inquiry-form-sections name-section">
             <label htmlFor="name">Name:</label>
             <input
               type="text"
@@ -41,10 +41,10 @@ class InqueryForm extends Component {
               id="name"
               name="name"
               onChange={this.handleChange}
-              className="inquery-form-inputs"
+              className="inquiry-form-inputs"
             />
           </div>
-          <div className="inquery-form-sections firm-section">
+          <div className="inquiry-form-sections firm-section">
             <label htmlFor="firm">Firm:</label>
             <input
               type="text"
@@ -52,10 +52,10 @@ class InqueryForm extends Component {
               id="firm"
               name="firm"
               onChange={this.handleChange}
-              className="inquery-form-inputs"
+              className="inquiry-form-inputs"
             />
           </div>
-          <div className="inquery-form-sections phone-section">
+          <div className="inquiry-form-sections phone-section">
             <label htmlFor="phone">Phone:</label>
             <input
               type="text"
@@ -63,10 +63,10 @@ class InqueryForm extends Component {
               id="phone"
               name="phone"
               onChange={this.handleChange}
-              className="inquery-form-inputs"
+              className="inquiry-form-inputs"
             />
           </div>
-          <div className="inquery-form-sections email-section">
+          <div className="inquiry-form-sections email-section">
             <label htmlFor="email">Email:</label>
             <input
               type="email"
@@ -74,10 +74,10 @@ class InqueryForm extends Component {
               id="email"
               name="email"
               onChange={this.handleChange}
-              className="inquery-form-inputs"
+              className="inquiry-form-inputs"
             />
           </div>
-          <div className="inquery-form-sections concern-area-section">
+          <div className="inquiry-form-sections concern-area-section">
             <label htmlFor="concernArea">Area of Concern:</label>
             <textarea
               type="text"
@@ -90,7 +90,7 @@ class InqueryForm extends Component {
           <input
             type="submit"
             value="Submit"
-            className="inquery-submit-button"
+            className="inquiry-submit-button"
           />
         </form>
       </div>
@@ -98,4 +98,4 @@ class InqueryForm extends Component {
   }
 }
 
-export default InqueryForm;
+export default InquiryForm;
