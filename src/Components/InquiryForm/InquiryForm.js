@@ -7,7 +7,6 @@ class InquiryForm extends Component {
 
     this.state = {
       name: '',
-      lastName: '',
       firm: '',
       phone: '',
       email: '',
@@ -17,7 +16,6 @@ class InquiryForm extends Component {
 
   handleChange = event => {
     const { name, value, type } = event.target;
-    console.log(value);
     const val = type === 'number' ? parseFloat(value) : value;
     this.setState({
       [name]: val
@@ -26,7 +24,40 @@ class InquiryForm extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
-  }
+
+    const inquiryData = {
+      name: this.state.name,
+      firm: this.state.firm,
+      phone: this.state.phone,
+      email: this.state.email,
+      concernArea: this.state.concernArea
+    }
+    this.sendEmail(inquiryData);
+  };
+
+  sendEmail = (inquiryData) => {
+    console.log(inquiryData);
+    // const service_id = 'default_service';
+    // const template_id = 'inquiry_form_template';
+    // window.emailjs.send(service_id, template_id, inquiryData)
+    //   .then(response => {
+    //     console.log(response)
+    //   })
+    //   .catch(error => {
+    //     console.log(error);
+    //   });
+    this.clearForm();
+  };
+
+  clearForm = (response) => {
+    this.setState({
+      name: '',
+      firm: '',
+      phone: '',
+      email: '',
+      concernArea: ''
+    });
+  };
 
 
   render() {
@@ -91,6 +122,7 @@ class InquiryForm extends Component {
             type="submit"
             value="Submit"
             className="inquiry-submit-button"
+            onClick={this.handleSubmit}
           />
         </form>
       </div>
