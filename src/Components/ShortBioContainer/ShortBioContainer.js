@@ -7,11 +7,11 @@ const ShortBioContainer = () => {
   const dataToDisplay = bioData.map((bio, index) => {
     return (
     <div className='short-bio' key={index}>
-      <img 
+      {/* <img 
         src={bio.source} 
         alt={bio.name} 
         className='short-bio-image'
-      />
+      /> */}
       <h4 className='bio-name'>{bio.name}</h4>
       <Link to={`/bios/${bio.lastName}`} className='bio-links'> View Full Bio </Link>
     </div>
