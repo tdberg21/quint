@@ -29,6 +29,10 @@
   margin-top: 0;
 }
 
+.longbio-contact {
+  font-size: 0.7rem;
+}
+
 .image-contact-section {
   width: 30%;
   padding-top: 4px;
@@ -47,7 +51,7 @@
   .longbio-contact {
     width: fit-content;
     text-align: left;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 
 }
