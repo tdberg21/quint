@@ -12,6 +12,7 @@ import Contact from '../Contact/Contact.js';
 import Testimonials from '../Testimonials/Testimonials.js';
 import Advantage from '../Advantage/Advantage.js';
 import InquiryForm from '../InquiryForm/InquiryForm.js';
+import SuccessPage from '../SuccessPage/SuccessPage.js';
 
 class App extends Component {
   constructor() {
@@ -71,6 +72,7 @@ class App extends Component {
         <Route exact path='/testimonials' component={Testimonials} />
         <Route exact path='/advantage' component={Advantage} />
         <Route exact path='/inquiry' component={InquiryForm} />
+        <Route exact path='/success' component={SuccessPage} />
         <Route path='/bios/:name' render={({ match }) => {
           let info = bioData.find(bio => {
             return bio.lastName === match.params.name; 

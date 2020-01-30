@@ -3,9 +3,9 @@ import './LongBio.css';
 import { Link } from 'react-router-dom';
 
 const LongBio = (props) => {
-  const infoToDisplay = props.info.map(info => {
+  const infoToDisplay = props.info.map((info, index) => {
     return (
-      <p className='longbio-text'>{info}</p>
+      <p className='longbio-text' key={index}>{info}</p>
     )
   })
   return (
@@ -13,11 +13,11 @@ const LongBio = (props) => {
       <h2 className="longbio-name">{props.name}</h2>
       <div className="longbio-card">
         <section className="image-contact-section">
-          <img
+          {/* <img
             src={props.source}
             alt={props.lastName}
             className="short-bio-image"
-          />
+          /> */}
           <p className="longbio-contact">{props.email}</p>
           <p className="longbio-contact longbio-phone">{props.phone}</p>
           <a

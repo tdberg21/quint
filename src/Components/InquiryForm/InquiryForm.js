@@ -14,6 +14,7 @@ class InquiryForm extends Component {
     };
   }
 
+
   handleChange = event => {
     const { name, value, type } = event.target;
     const val = type === 'number' ? parseFloat(value) : value;
@@ -24,7 +25,6 @@ class InquiryForm extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
-
     const inquiryData = {
       name: this.state.name,
       firm: this.state.firm,
@@ -36,20 +36,21 @@ class InquiryForm extends Component {
   };
 
   sendEmail = (inquiryData) => {
-    console.log(inquiryData);
-    // const service_id = 'default_service';
-    // const template_id = 'inquiry_form_template';
-    // window.emailjs.send(service_id, template_id, inquiryData)
-    //   .then(response => {
-    //     console.log(response)
-    //   })
-    //   .catch(error => {
-    //     console.log(error);
-    //   });
+    const service_id = 'default_service';
+    const template_id = 'inquiry_form_template';
+    window.emailjs.send(service_id, template_id, inquiryData)
+      .then(response => {
+        if (response.status === 200) {
+          this.props.history.push('/success');
+        }
+      })
+      .catch(error => {
+        console.log(error);
+      });
     this.clearForm();
   };
 
-  clearForm = (response) => {
+  clearForm = () => {
     this.setState({
       name: '',
       firm: '',
@@ -68,18 +69,19 @@ class InquiryForm extends Component {
             <label htmlFor="name">Name:</label>
             <input
               type="text"
-              value={this.state.value}
+              value={this.state.name}
               id="name"
               name="name"
               onChange={this.handleChange}
               className="inquiry-form-inputs"
+              required
             />
           </div>
           <div className="inquiry-form-sections firm-section">
             <label htmlFor="firm">Firm:</label>
             <input
               type="text"
-              value={this.state.value}
+              value={this.state.firm}
               id="firm"
               name="firm"
               onChange={this.handleChange}
@@ -90,7 +92,7 @@ class InquiryForm extends Component {
             <label htmlFor="phone">Phone:</label>
             <input
               type="text"
-              value={this.state.value}
+              value={this.state.phone}
               id="phone"
               name="phone"
               onChange={this.handleChange}
@@ -101,18 +103,19 @@ class InquiryForm extends Component {
             <label htmlFor="email">Email:</label>
             <input
               type="email"
-              value={this.state.value}
+              value={this.state.email}
               id="email"
               name="email"
               onChange={this.handleChange}
               className="inquiry-form-inputs"
+              required
             />
           </div>
           <div className="inquiry-form-sections concern-area-section">
             <label htmlFor="concernArea">Area of Concern:</label>
             <textarea
               type="text"
-              value={this.state.value}
+              value={this.state.concernArea}
               id="concernArea"
               name="concernArea"
               onChange={this.handleChange}
@@ -122,7 +125,6 @@ class InquiryForm extends Component {
             type="submit"
             value="Submit"
             className="inquiry-submit-button"
-            onClick={this.handleSubmit}
           />
         </form>
       </div>
